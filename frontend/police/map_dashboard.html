@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Emergency Map - SafetyNet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary-blue: #1e3a8a;
+            --dark-blue: #0f172a;
+            --medium-blue: #1e293b;
+            --light-blue: #3b82f6;
+            --accent-blue: #60a5fa;
+            --white: #ffffff;
+            --off-white: #f8fafc;
+            --gray: #94a3b8;
+            --light-gray: #cbd5e1;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
+                      0 4px 6px -2px rgba(0, 0, 0, 0.2);
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            color: var(--off-white);
+            line-height: 1.5;
+            background-color: var(--dark-blue);
+        }
+
+        /* Background with city image */
+        .city-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(
+                rgba(15, 23, 42, 0.85),
+                rgba(15, 23, 42, 0.95)
+            ),
+            url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        /* Main container */
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            width: 260px;
+            background: var(--medium-blue);
+            border-right: 1px solid var(--accent-blue);
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            z-index: 1000;
+            overflow-y: auto;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--accent-blue);
+        }
+
+        .sidebar-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .sidebar-logo i {
+            color: var(--accent-blue);
+            font-size: 1.5rem;
+        }
+
+        .sidebar-nav {
+            flex: 1;
+            padding: 1.5rem 0;
+        }
+
+        .sidebar-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar-nav li {
+            margin-bottom: 5px;
+        }
+
+        .sidebar-nav a {
+            display: flex;
+            align-items: center;
+            padding: 12px 1.5rem;
+            color: var(--off-white);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            gap: 12px;
+        }
+
+        .sidebar-nav a:hover, .sidebar-nav a.active {
+            background: rgba(96, 165, 250, 0.2);
+            border-left: 4px solid var(--accent-blue);
+            color: var(--accent-blue);
+            padding-left: calc(1.5rem - 4px);
+        }
+
+        .sidebar-nav a i {
+            width: 20px;
+            text-align: center;
+        }
+
+        .sidebar-footer {
+            padding: 1.5rem;
+            border-top: 1px solid var(--accent-blue);
+        }
+
+        .sidebar-footer a {
+            display: flex;
+            align-items: center;
+            padding: 12px 1.5rem;
+            color: var(--off-white);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            gap: 12px;
+        }
+
+        .sidebar-footer a:hover {
+            color: var(--accent-blue);
+        }
+
+        .main-content {
+            flex: 1;
+            overflow-y: auto;
+            padding-bottom: 20px;
+            margin-left: 260px; /* Make space for sidebar */
+        }
+
+        /* Adjust header for sidebar */
+        header {
+            margin-left: 260px; /* Make space for sidebar */
+        }
+
+        /* Specific styles for map page to ensure map works properly */
+        #map-container {
+            height: 500px;  /* Default height */
+            min-height: 400px;
+            margin: 10px 0;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+            flex-shrink: 0;
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--white);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            margin-right: 8px;
+            font-size: 26px;
+            color: var(--accent-blue);
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            padding: 8px 15px;
+            background: transparent;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: rgba(96, 165, 250, 0.1);
+            color: var(--light-blue);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--white);
+        }
+
+        #status {
+            text-align: center;
+            margin: 10px 0;
+            padding: 10px;
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 5px;
+            font-weight: bold;
+            color: var(--white);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+        #map-container {
+            flex: 1;
+            width: 100%;
+            position: relative;
+            min-height: 500px;
+            margin: 10px;
+        }
+
+        #map {
+            height: 100%;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+        }
+
+        #refresh-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 1000;
+            padding: 10px 15px;
+            background: var(--medium-blue);
+            color: var(--white);
+            border: 1px solid var(--accent-blue);
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        #refresh-btn:hover {
+            background: var(--light-blue);
+            color: var(--dark-blue);
+        }
+
+        .error {
+            color: #fca5a5;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        .success {
+            color: #86efac;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        .warning {
+            color: #fde047;
+            background: rgba(251, 191, 36, 0.1);
+            border: 1px solid rgba(251, 191, 36, 0.3);
+        }
+
+        /* Dropdown Menu */
+        .dropdown-menu {
+            position: absolute;
+            top: 50px;
+            right: 0;
+            background-color: var(--medium-blue);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 6px;
+            box-shadow: var(--shadow);
+            width: 200px;
+            z-index: 1000;
+            display: none;
+            overflow: hidden;
+        }
+
+        .dropdown-menu.show {
+            display: block;
+        }
+
+        .dropdown-item {
+            display: block;
+            padding: 10px 15px;
+            color: var(--off-white);
+            text-decoration: none;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .dropdown-item i {
+            width: 16px;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgba(59, 130, 246, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- City background -->
+    <div class="city-background"></div>
+
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <a href="#" class="sidebar-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    SafetyNet
+                </a>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="map_dashboard.html" class="active"><i class="fas fa-map-marked-alt"></i> Emergency Map</a></li>
+                    <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+                    <li><a href="police_analytics.html"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                    <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="#" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </aside>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="nav-container">
+                    <a href="#" onclick="goToLandingPage(); return false;" class="logo">
+                        <i class="fas fa-shield-alt"></i>
+                        SafetyNet
+                    </a>
+                    <div class="nav-buttons">
+                        <button id="profileDropdownBtn" class="nav-btn">
+                            <i class="fas fa-user"></i> Profile <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div id="profileDropdown" class="dropdown-menu">
+                            <a href="profile.html" class="dropdown-item"><i class="fas fa-user"></i> View Profile</a>
+                            <a href="#" class="dropdown-item" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="container">
+                <h1>Police Emergency Map - Active Emergencies</h1>
+                <div id="status">Loading emergency map...</div>
+                <div id="map-container">
+                    <button id="refresh-btn" onclick="loadActiveEmergencies()">🔄 Refresh</button>
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+
+    <!-- External map JavaScript file -->
+    <script src="../civilian/js/token-manager.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "police-security-ai",
+  "version": "1.0.0",
+  "description": "A comprehensive platform connecting citizens with law enforcement for real-time reporting and updates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run open-browser\"",
+    "dev": "concurrently \"npm run server\" \"npm run open-browser\"",
+    "server": "python -m uvicorn backend.app:app --reload --host 0.0.0.0 --port 8000",
+    "open-browser": "node open_browser.js",
+    "install": "pip install -r requirements.txt",
+    "setup": "pip install -r requirements.txt && python init_db.py"
+  },
+  "keywords": [
+    "fastapi",
+    "security",
+    "police",
+    "community",
+    "safety"
+  ],
+  "author": "SafetyNet Development Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

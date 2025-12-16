@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malawi-SafetyNet - Emergency Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <style>
+        :root {
+            --primary-blue: #1e3c72;
+            --secondary-blue: #2a5298;
+            --accent-blue: #4cc9f0;
+            --emergency-red: #e63946;
+            --warning-yellow: #ff9e00;
+            --success-green: #2a9d8f;
+            --light-blue: #a8dadc;
+            --dark-bg: #0a192f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--dark-bg);
+            color: white;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+            padding: 0.8rem 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-brand i {
+            color: var(--accent-blue);
+        }
+
+        .btn {
+            padding: 8px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .btn-emergency {
+            background: var(--emergency-red);
+            color: white;
+            font-weight: bold;
+        }
+
+        .btn-emergency:hover {
+            background: #c1121f;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #3db8d8;
+        }
+
+        /* Main Container */
+        .emergency-container {
+            padding: 80px 20px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Emergency Header */
+        .emergency-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .emergency-header h1 {
+            color: var(--emergency-red);
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        /* Emergency Type Selection */
+        .emergency-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .type-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px 10px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            text-align: center;
+        }
+
+        .type-btn:hover {
+            border-color: var(--accent-blue);
+            transform: translateY(-3px);
+        }
+
+        .type-btn.selected {
+            border-color: var(--emergency-red);
+            background: rgba(230, 57, 70, 0.1);
+        }
+
+        .type-btn i {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        /* Emergency Form */
+        .emergency-form {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+            margin: 25px 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: var(--light-blue);
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            color: rgb(0, 0, 0);
+            font-size: 1rem;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 2px rgba(76, 201, 240, 0.3);
+        }
+
+        textarea.form-control {
+            min-height: 100px;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        textarea.form-control::placeholder {
+            font-size: 0.9rem;
+        }
+
+        /* Location Button */
+        .location-btn {
+            background: var(--secondary-blue);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .location-btn:hover {
+            background: #1e3c72;
+        }
+
+        /* Emergency Call Buttons */
+        .call-section {
+            margin: 40px 0;
+        }
+
+        .call-section h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--light-blue);
+        }
+
+        .call-buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+            gap: 15px;
+        }
+
+        .call-btn {
+            background: var(--warning-yellow);
+            color: #000;
+            border: none;
+            border-radius: 10px;
+            padding: 20px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+        }
+
+        .call-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(255, 158, 0, 0.3);
+        }
+
+        .call-btn i {
+            font-size: 2rem;
+        }
+
+        .call-btn small {
+            font-size: 0.8rem;
+            opacity: 0.9;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            background: var(--emergency-red);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .submit-btn:hover {
+            background: #c1121f;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(230, 57, 70, 0.4);
+        }
+
+        .submit-btn:disabled {
+            background: #666;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Recent Reports */
+        .recent-section {
+            margin-top: 40px;
+        }
+
+        .reports-list {
+            margin-top: 15px;
+        }
+
+        .report-item {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-left: 4px solid var(--emergency-red);
+        }
+
+        .report-time {
+            font-size: 0.8rem;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        /* Success Modal */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+        }
+
+        .modal-content {
+            background: var(--dark-bg);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            border: 2px solid var(--emergency-red);
+        }
+
+        .modal-content i {
+            font-size: 4rem;
+            color: var(--success-green);
+            margin-bottom: 20px;
+        }
+
+        .modal-content h2 {
+            margin-bottom: 10px;
+            color: var(--success-green);
+        }
+
+        .countdown-timer {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--emergency-red);
+            margin: 20px 0;
+            font-family: monospace;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .emergency-types {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .call-buttons {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .emergency-container {
+                padding: 70px 15px 15px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .emergency-types {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Required field indicator */
+        .required::after {
+            content: " *";
+            color: var(--emergency-red);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="chat.html" class="nav-brand">
+            <i class="fas fa-shield-alt"></i>
+            <span>SafetyNet</span>
+        </a>
+
+        <div>
+            <a href="chat.html" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Back to Chat
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="emergency-container">
+        <!-- Emergency Header -->
+        <div class="emergency-header">
+            <h1><i class="fas fa-exclamation-triangle"></i> Emergency Report</h1>
+            <p>Describe your emergency in detail before sending</p>
+        </div>
+
+        <!-- Emergency Type Selection -->
+        <div class="emergency-types" id="emergencyTypes">
+            <button class="type-btn" data-type="medical">
+                <i class="fas fa-ambulance"></i>
+                <span>Medical</span>
+            </button>
+            <button class="type-btn" data-type="accident">
+                <i class="fas fa-car-crash"></i>
+                <span>Accident</span>
+            </button>
+            <button class="type-btn" data-type="fire">
+                <i class="fas fa-fire"></i>
+                <span>Fire</span>
+            </button>
+            <button class="type-btn" data-type="crime">
+                <i class="fas fa-user-shield"></i>
+                <span>Crime</span>
+            </button>
+            <button class="type-btn" data-type="disaster">
+                <i class="fas fa-water"></i>
+                <span>Disaster</span>
+            </button>
+            <button class="type-btn" data-type="other">
+                <i class="fas fa-exclamation"></i>
+                <span>Other</span>
+            </button>
+        </div>
+
+        <!-- Emergency Form -->
+        <div class="emergency-form">
+            <form id="emergencyForm" onsubmit="return false">
+                <div class="form-group">
+                    <label for="emergencyType" class="required">Emergency Type</label>
+                    <select class="form-control" id="emergencyType" required>
+                        <option value="">Select emergency type...</option>
+                        <option value="medical">Medical Emergency</option>
+                        <option value="accident">Traffic Accident</option>
+                        <option value="fire">Fire Emergency</option>
+                        <option value="crime">Crime in Progress</option>
+                        <option value="disaster">Natural Disaster</option>
+                        <option value="other">Other Emergency</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="location" class="required">Location</label>
+                    <input type="text" class="form-control" id="location" 
+                           placeholder="Auto-detecting location..." required>
+                    <button type="button" class="location-btn" onclick="getLocation()">
+                        <i class="fas fa-location-arrow"></i>
+                        Use Current Location
+                    </button>
+                </div>
+
+                <div class="form-group">
+                    <label for="description" class="required">Emergency Description</label>
+                    <textarea class="form-control" id="description" 
+                              placeholder="Please describe the emergency in detail."
+                              required></textarea>
+                    <div style="font-size: 0.8rem; margin-top: 5px; opacity: 0.7;">
+                        <i class="fas fa-info-circle"></i> Detailed description helps responders prepare
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="peopleInvolved">Number of People Involved</label>
+                    <select class="form-control" id="peopleInvolved">
+                        <option value="1">1 person</option>
+                        <option value="2">2 people</option>
+                        <option value="3">3 people</option>
+                        <option value="4">4 people</option>
+                        <option value="5">5+ people</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="urgent" checked>
+                        <span style="margin-left: 8px;">This is urgent - notify emergency services immediately</span>
+                    </label>
+                </div>
+
+                <button type="button" class="submit-btn" id="submitBtn" onclick="submitEmergency().catch(console.error)">
+                    <i class="fas fa-paper-plane"></i>
+                    SEND EMERGENCY REPORT
+                </button>
+            </form>
+        </div>
+
+        <!-- Emergency Call Section -->
+        <div class="call-section">
+            <h3><i class="fas fa-phone-alt"></i> Need to call directly?</h3>
+            <div class="call-buttons">
+                <button class="call-btn" onclick="callEmergency('997')">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Police</span>
+                    <small>997</small>
+                </button>
+                <button class="call-btn" onclick="callEmergency('998')">
+                    <i class="fas fa-ambulance"></i>
+                    <span>Ambulance</span>
+                    <small>998</small>
+                </button>
+                <button class="call-btn" onclick="callEmergency('999')">
+                    <i class="fas fa-fire-extinguisher"></i>
+                    <span>Fire</span>
+                    <small>999</small>
+                </button>
+                <button class="call-btn" onclick="callEmergency('112')">
+                    <i class="fas fa-phone"></i>
+                    <span>General</span>
+                    <small>112</small>
+                </button>
+            </div>
+        </div>
+
+        <!-- Recent Reports -->
+        <div class="recent-section">
+            <h3><i class="fas fa-history"></i> Recent Reports</h3>
+            <div class="reports-list" id="recentReports">
+                <!-- Reports will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="successModal">
+        <div class="modal-content">
+            <i class="fas fa-check-circle"></i>
+            <h2>Emergency Reported!</h2>
+            <p>Help is on the way. Please stay safe.</p>
+            <div class="countdown-timer" id="countdownTimer">00:30</div>
+            <p>Estimated response time: 5-15 minutes</p>
+            <button class="btn btn-primary" style="margin-top: 20px;" onclick="closeModal()">
+                OK
+            </button>
+        </div>
+    </div>
+
+    <script>
+        let selectedEmergencyType = '';
+        let currentLocation = null;
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Auto-detect location
+            getLocationAuto();
+            
+            // Load recent reports
+            loadRecentReports();
+            
+            // Setup emergency type buttons
+            setupTypeButtons();
+            
+            // Setup form validation
+            setupFormValidation();
+        });
+
+        function setupTypeButtons() {
+            const typeButtons = document.querySelectorAll('.type-btn');
+            const typeSelect = document.getElementById('emergencyType');
+            
+            typeButtons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove selected class from all buttons
+                    typeButtons.forEach(b => b.classList.remove('selected'));
+                    
+                    // Add selected class to clicked button
+                    this.classList.add('selected');
+                    
+                    // Get the type
+                    selectedEmergencyType = this.dataset.type;
+                    
+                    // Update the select dropdown
+                    typeSelect.value = selectedEmergencyType;
+                    
+                    // Update button state
+                    updateSubmitButton();
+                });
+            });
+            
+            // Also update when select changes
+            typeSelect.addEventListener('change', function() {
+                // Remove selected class from all buttons
+                typeButtons.forEach(b => b.classList.remove('selected'));
+                
+                // Add selected class to corresponding button
+                const type = this.value;
+                if (type) {
+                    const btn = document.querySelector(`.type-btn[data-type="${type}"]`);
+                    if (btn) btn.classList.add('selected');
+                }
+                
+                updateSubmitButton();
+            });
+        }
+
+        function setupFormValidation() {
+            const form = document.getElementById('emergencyForm');
+            const inputs = form.querySelectorAll('input, select, textarea');
+            
+            inputs.forEach(input => {
+                input.addEventListener('input', updateSubmitButton);
+                input.addEventListener('change', updateSubmitButton);
+            });
+            
+            // Initial check
+            updateSubmitButton();
+        }
+
+        function updateSubmitButton() {
+            const type = document.getElementById('emergencyType').value;
+            const location = document.getElementById('location').value.trim();
+            const description = document.getElementById('description').value.trim();
+            const submitBtn = document.getElementById('submitBtn');
+            
+            // Check if all required fields are filled
+            const isValid = type && location && description;
+            
+            submitBtn.disabled = !isValid;
+            
+            if (isValid) {
+                submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> SEND EMERGENCY REPORT';
+            } else {
+                submitBtn.innerHTML = '<i class="fas fa-exclamation-circle"></i> FILL ALL REQUIRED FIELDS';
+            }
+        }
+
+        function getLocationAuto() {
+            if (navigator.geolocation) {
+                // Get location with maximum accuracy
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        // Extract high-precision coordinates
+                        const lat = parseFloat(position.coords.latitude.toFixed(6));
+                        const lon = parseFloat(position.coords.longitude.toFixed(6));
+                        const accuracy = position.coords.accuracy;
+
+                        currentLocation = {
+                            lat,
+                            lon,
+                            accuracy: accuracy,
+                            timestamp: new Date().toISOString()
+                        };
+
+                        console.log(`Location accuracy: ${accuracy} meters`);
+
+                        // Get address if possible
+                        getAddressFromCoords(lat, lon, accuracy);
+                    },
+                    (error) => {
+                        console.error("Geolocation error:", error);
+                        // If location fails, show manual input
+                        document.getElementById('location').placeholder = "Enter your location (lat, lon)...";
+                    },
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 20000,  // Increased timeout
+                        maximumAge: 0     // Don't use cached position
+                    }
+                );
+            } else {
+                document.getElementById('location').placeholder = "Enter your location (lat, lon)...";
+            }
+        }
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                // Get most accurate location possible
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        // Use full precision and round to 6 decimal places (about 11cm accuracy)
+                        const lat = parseFloat(position.coords.latitude.toFixed(6));
+                        const lon = parseFloat(position.coords.longitude.toFixed(6));
+                        const accuracy = position.coords.accuracy;
+
+                        currentLocation = {
+                            lat,
+                            lon,
+                            accuracy: accuracy,
+                            timestamp: new Date().toISOString()
+                        };
+
+                        console.log(`Location captured: Lat ${lat}, Lon ${lon}. Accuracy: ${accuracy} meters`);
+
+                        getAddressFromCoords(lat, lon, accuracy);
+
+                        // Show success
+                        alert(`Location captured! Accuracy: ${accuracy} meters`);
+                    },
+                    (error) => {
+                        console.error("Location error:", error);
+                        let errorMessage = 'Unable to get location. Please enter manually.';
+                        switch(error.code) {
+                            case error.PERMISSION_DENIED:
+                                errorMessage = "Location access denied by user";
+                                break;
+                            case error.POSITION_UNAVAILABLE:
+                                errorMessage = "Location information is unavailable";
+                                break;
+                            case error.TIMEOUT:
+                                errorMessage = "Location request timed out";
+                                break;
+                        }
+                        alert(errorMessage);
+                        document.getElementById('location').focus();
+                    },
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 20000,    // Increased timeout
+                        maximumAge: 0      // Don't use cached position
+                    }
+                );
+            } else {
+                alert('Geolocation is not supported by your browser. Please enter location manually.');
+            }
+        }
+
+        function getAddressFromCoords(lat, lon, accuracy = null) {
+            // In a real app, you would use a geocoding service
+            // For now, just show coordinates with high precision
+            const locationInput = document.getElementById('location');
+            let locationValue = `Lat: ${lat.toFixed(6)}, Lon: ${lon.toFixed(6)}`;
+
+            if (accuracy !== null) {
+                locationValue += ` (Accuracy: ${accuracy.toFixed(1)}m)`;
+            }
+
+            locationInput.value = locationValue;
+
+            // Save for later use
+            localStorage.setItem('last_location', JSON.stringify({ lat, lon, accuracy, timestamp: new Date().toISOString() }));
+        }
+
+        async function submitEmergency() {
+            // Validate form
+            const type = document.getElementById('emergencyType').value;
+            const location = document.getElementById('location').value.trim();
+            const description = document.getElementById('description').value.trim();
+            const people = document.getElementById('peopleInvolved').value;
+            const isUrgent = document.getElementById('urgent').checked;
+
+            if (!type || !location || !description) {
+                alert('Please fill all required fields');
+                return;
+            }
+
+            // Extract coordinates from location if available
+            let latitude = null;
+            let longitude = null;
+
+            // Try to extract coordinates from location (e.g., "Lat: -15.782500, Lon: 35.009200 (Accuracy: 10.5m)")
+            if (location.includes("Lat:") && location.includes("Lon:")) {
+                try {
+                    // Extract latitude and longitude with higher precision
+                    const latMatch = location.match(/Lat:\s*(-?\d+\.?\d*)/);
+                    const lonMatch = location.match(/Lon:\s*(-?\d+\.?\d*)/);
+
+                    if (latMatch && lonMatch) {
+                        latitude = parseFloat(latMatch[1]);
+                        longitude = parseFloat(lonMatch[1]);
+
+                        if (isNaN(latitude) || isNaN(longitude)) {
+                            console.warn("Found coordinates but could not parse them:", latMatch[1], lonMatch[1]);
+                            latitude = null;
+                            longitude = null;
+                        }
+                    }
+                } catch (e) {
+                    console.warn("Could not parse coordinates from location:", e);
+                }
+            }
+
+            // If coordinates not found, try to get from currentLocation
+            if (!latitude || !longitude) {
+                if (currentLocation) {
+                    latitude = currentLocation.lat;
+                    longitude = currentLocation.lon;
+                }
+            }
+
+            // Validate coordinates exist
+            if (!latitude || !longitude) {
+                alert('Location coordinates are required for emergency reporting. Please use the "Use Current Location" button or enter coordinates manually.');
+                return;
+            }
+
+            // Prepare emergency data for API
+            const emergencyData = {
+                emergency_type: type,
+                description: description,
+                latitude: latitude,
+                longitude: longitude
+            };
+
+            // Get JWT token
+            const token = localStorage.getItem('jwt');
+            if (!token) {
+                alert('You must be logged in to report an emergency. Please login first.');
+                window.location.href = 'login.html';
+                return;
+            }
+
+            // Disable submit button and show loading state
+            const submitBtn = document.getElementById('submitBtn');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> REPORTING...';
+
+            try {
+                // Send to backend API
+                fetch('http://127.0.0.1:8000/emergency/report-emergency', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`
+                    },
+                    body: JSON.stringify(emergencyData)
+                })
+                .then(response => {
+                    return response.json().then(data => {
+                        return { ok: response.ok, data: data, status: response.status };
+                    });
+                })
+                .then(result => {
+                    if (result.ok) {
+                        console.log('Emergency report sent successfully:', result.data);
+
+                        // Create local report for UI
+                        const emergencyReport = {
+                            id: result.data.emergency_id || Date.now(),
+                            type: type,
+                            location: location,
+                            description: description,
+                            peopleInvolved: people,
+                            urgent: isUrgent,
+                            timestamp: result.data.timestamp || new Date().toISOString(),
+                            status: 'reported'
+                        };
+
+                        // Save to local storage
+                        saveEmergencyReport(emergencyReport);
+
+                        // Show success modal
+                        showSuccessModal();
+
+                        // Start countdown
+                        startCountdown();
+
+                        // Reset form after a delay
+                        setTimeout(() => {
+                            document.getElementById('emergencyForm').reset();
+                            document.querySelectorAll('.type-btn').forEach(btn => btn.classList.remove('selected'));
+                            updateSubmitButton();
+                            loadRecentReports();
+                        }, 3000);
+                    } else {
+                        console.error('Emergency report failed:', result.data);
+                        alert(`Failed to report emergency: ${result.data.detail || 'Unknown error'}`);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error sending emergency report:', error);
+                    alert(`Network error: ${error.message}. Please try again later.`);
+                })
+                .finally(() => {
+                    // Re-enable submit button
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = originalText;
+                });
+            } catch (error) {
+                console.error('Error preparing emergency report:', error);
+                alert('An error occurred while preparing your emergency report.');
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalText;
+            }
+        }
+
+        function showSuccessModal() {
+            const modal = document.getElementById('successModal');
+            modal.style.display = 'flex';
+            
+            // Close after 30 seconds automatically
+            setTimeout(() => {
+                closeModal();
+            }, 30000);
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('successModal');
+            modal.style.display = 'none';
+        }
+
+        function startCountdown() {
+            const timerElement = document.getElementById('countdownTimer');
+            let seconds = 30;
+            
+            timerElement.textContent = '00:30';
+            
+            const countdown = setInterval(() => {
+                seconds--;
+                const mins = Math.floor(seconds / 60);
+                const secs = seconds % 60;
+                timerElement.textContent = `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+                
+                if (seconds <= 0) {
+                    clearInterval(countdown);
+                    timerElement.textContent = 'Arriving';
+                }
+            }, 1000);
+        }
+
+        function callEmergency(number) {
+            if (confirm(`Call emergency number ${number}?`)) {
+                // Log the call as an emergency
+                const callReport = {
+                    id: Date.now(),
+                    type: 'emergency_call',
+                    location: document.getElementById('location').value || 'Not specified',
+                    description: `Emergency call to ${number}`,
+                    timestamp: new Date().toISOString(),
+                    status: 'called'
+                };
+                
+                saveEmergencyReport(callReport);
+                
+                // Redirect to phone call
+                window.location.href = `tel:${number}`;
+            }
+        }
+
+        function saveEmergencyReport(report) {
+            let reports = JSON.parse(localStorage.getItem('emergency_reports')) || [];
+            
+            // Add human readable time
+            report.displayTime = new Date(report.timestamp).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            report.displayDate = new Date(report.timestamp).toLocaleDateString();
+            
+            reports.unshift(report);
+            if (reports.length > 20) reports = reports.slice(0, 20);
+            localStorage.setItem('emergency_reports', JSON.stringify(reports));
+            
+            loadRecentReports();
+        }
+
+        async function loadRecentReports() {
+            try {
+                const token = localStorage.getItem("jwt");
+                if (!token) {
+                    console.error("No authentication token found");
+                    document.getElementById('recentReports').innerHTML = `
+                        <div style="text-align: center; padding: 20px; opacity: 0.7;">
+                            <p>Please login to view emergency reports</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Fetch user's recent emergency reports from backend API using token manager
+                const response = await makeAuthenticatedRequest("http://127.0.0.1:8000/emergency/my-emergencies?status=all", {
+                    method: "GET",
+                    headers: {
+                        "Authorization": `Bearer ${token}`,
+                        "Content-Type": "application/json"
+                    }
+                });
+
+                if (response.ok) {
+                    const emergencies = await response.json();
+                    const container = document.getElementById('recentReports');
+
+                    if (emergencies.length === 0) {
+                        container.innerHTML = `
+                            <div style="text-align: center; padding: 20px; opacity: 0.7;">
+                                <p>No emergency reports yet</p>
+                            </div>
+                        `;
+                        return;
+                    }
+
+                    // Show only last 5 reports (most recent first)
+                    const recent = emergencies.slice(0, 5);
+
+                    container.innerHTML = recent.map(emergency => `
+                        <div class="report-item">
+                            <div style="display: flex; justify-content: space-between; align-items: start;">
+                                <div>
+                                    <strong style="text-transform: capitalize;">${emergency.emergency_type.replace('_', ' ')}</strong>
+                                    ${emergency.status === 'active' ? '<span style="background: var(--emergency-red); padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; margin-left: 8px;">ACTIVE</span>' : ''}
+                                    ${emergency.status === 'in_progress' ? '<span style="background: var(--warning-yellow); padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; margin-left: 8px; color: black;">IN PROGRESS</span>' : ''}
+                                    ${emergency.status === 'resolved' ? '<span style="background: var(--success-green); padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; margin-left: 8px;">RESOLVED</span>' : ''}
+                                </div>
+                                <span style="font-size: 0.8rem; opacity: 0.7;">${new Date(emergency.created_at).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}</span>
+                            </div>
+                            <p style="margin: 8px 0; font-size: 0.9rem;">${emergency.description.substring(0, 60)}${emergency.description.length > 60 ? '...' : ''}</p>
+                            <div class="report-time">${new Date(emergency.created_at).toLocaleDateString()} •
+                            Lat: ${Number(emergency.latitude).toFixed(4)}, Lng: ${Number(emergency.longitude).toFixed(4)}</div>
+                        </div>
+                    `).join('');
+                } else {
+                    console.error("Failed to fetch recent reports:", response.status);
+                    // Fallback to localStorage if API call fails
+                    fallbackToLocalStorage();
+                }
+            } catch (error) {
+                console.error("Error loading recent reports:", error);
+                // Fallback to localStorage if API call fails
+                fallbackToLocalStorage();
+            }
+        }
+
+        // Fallback function to load from localStorage if API fails
+        function fallbackToLocalStorage() {
+            const reports = JSON.parse(localStorage.getItem('emergency_reports')) || [];
+            const container = document.getElementById('recentReports');
+
+            if (reports.length === 0) {
+                container.innerHTML = `
+                    <div style="text-align: center; padding: 20px; opacity: 0.7;">
+                        <p>No emergency reports yet</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Show only last 5 reports
+            const recent = reports.slice(0, 5);
+
+            container.innerHTML = recent.map(report => `
+                <div class="report-item">
+                    <div style="display: flex; justify-content: space-between; align-items: start;">
+                        <div>
+                            <strong style="text-transform: capitalize;">${report.type.replace('_', ' ')}</strong>
+                            ${report.urgent ? '<span style="background: var(--emergency-red); padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; margin-left: 8px;">URGENT</span>' : ''}
+                        </div>
+                        <span style="font-size: 0.8rem; opacity: 0.7;">${report.displayTime}</span>
+                    </div>
+                    <p style="margin: 8px 0; font-size: 0.9rem;">${report.description.substring(0, 60)}${report.description.length > 60 ? '...' : ''}</p>
+                    <div class="report-time">${report.displayDate} • ${report.location.substring(0, 30)}${report.location.length > 30 ? '...' : ''}</div>
+                </div>
+            `).join('');
+        }
+
+                //to auto-fill emergency description
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if we're coming from an emergency detection
+            const urlParams = new URLSearchParams(window.location.search);
+            const isEmergency = urlParams.get('emergency') === 'true';
+            
+            if (isEmergency) {
+                // Get the emergency message from localStorage
+                const emergencyMessage = localStorage.getItem('emergency_message');
+                
+                if (emergencyMessage) {
+                    // Auto-fill the description
+                    const descriptionField = document.getElementById('description');
+                    if (descriptionField) {
+                        descriptionField.value = emergencyMessage;
+                        
+                        // Auto-select the appropriate emergency type based on keywords
+                        const emergencyType = document.getElementById('emergencyType');
+                        const messageLower = emergencyMessage.toLowerCase();
+                        
+                        if (messageLower.includes('medical') || messageLower.includes('ambulance') || 
+                            messageLower.includes('hospital') || messageLower.includes('doctor')) {
+                            emergencyType.value = 'medical';
+                        } else if (messageLower.includes('accident') || messageLower.includes('crash') || 
+                                messageLower.includes('collision')) {
+                            emergencyType.value = 'accident';
+                        } else if (messageLower.includes('fire') || messageLower.includes('burning')) {
+                            emergencyType.value = 'fire';
+                        } else if (messageLower.includes('crime') || messageLower.includes('robbery') || 
+                                messageLower.includes('theft') || messageLower.includes('suspicious')) {
+                            emergencyType.value = 'crime';
+                        }
+                        
+                        // Set priority to high
+                        const priorityField = document.getElementById('priority');
+                        if (priorityField) {
+                            priorityField.value = 'high';
+                        }
+                        
+                        // Show a notification
+                        alert('Emergency detected! The form has been pre-filled. Please review and submit.');
+                    }
+                    
+                    // Clear the stored message after use
+                    localStorage.removeItem('emergency_message');
+                }
+            }
+        });
+    </script>
+    <script src="js/token-manager.js"></script>
+</body>
+</html>

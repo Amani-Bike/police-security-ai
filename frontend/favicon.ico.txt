@@ -1,0 +1,15 @@
+To create a proper favicon.ico file for SafetyNet:
+
+1. Create a 16x16, 32x32, or 64x64 pixel image with your desired SafetyNet icon
+   - Consider using a shield icon, police badge, or safety symbol
+   - Use colors that match your application theme (blues, etc.)
+
+2. Convert your image to .ico format using:
+   - Online converters like favicon.io, convertio.co, or ezgif.com
+   - Graphics software like GIMP or Photoshop
+
+3. Save the file as "favicon.ico" in the frontend directory
+
+4. Replace this text file with the actual favicon.ico file
+
+Your favicon will then be served automatically by the route I've added to app.py

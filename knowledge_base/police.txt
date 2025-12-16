@@ -1,0 +1,2232 @@
+Malawi
+Police Act
+Chapter 13:01
+Legislation as at 31 December 2014
+There may have been updates since this file was created.
+PDF created on 6 June 2025 at 11:08.
+Collection last checked for updates: 31 December 2014.
+View online
+About this collection
+The legislation in this collection has been reproduced as it was originally printed in the Government Gazette, with
+improved formatting and with minor typographical errors corrected. All amendments have been applied directly to
+the text and annotated. A scan of the original gazette of each piece of legislation (including amendments) is available
+for reference.
+www.laws.africa
+info@laws.africa
+FRBR URI: /akn/mw/act/2010/12/eng@2014-12-31
+There is no copyright on the legislative content of this document.
+This PDF copy is licensed under a Creative Commons Attribution 4.0 License (CC BY 4.0). Share widely and freely.
+i
+Police Act (Chapter 13:01)
+Contents
+Part I – Preliminary ............................................................................................................................................................................................ 1
+1. Short title .................................................................................................................................................................................................... 1
+2. Interpretation ............................................................................................................................................................................................. 1
+Part II – Constitution and administration of the Malawi Police Service ......................................................................................... 2
+3. The Malawi Police Service ................................................................................................................................................................... 2
+4. General functions of the Police Service .......................................................................................................................................... 2
+5. Constitution of the Police Service ..................................................................................................................................................... 3
+6. Order of precedence, command and seniority among officers ................................................................................................ 3
+7. General powers of the Inspector General ....................................................................................................................................... 3
+8. Police standing orders ............................................................................................................................................................................ 3
+9. High Command of the Police Service ............................................................................................................................................... 3
+10. Delegation by Inspector General ..................................................................................................................................................... 4
+11. Administration of the Police Service .............................................................................................................................................. 4
+12. Officer in-charge of police to keep prescribed books and to be responsible for stores ............................................... 4
+Part III – Police Service Commission ........................................................................................................................................................... 4
+13. Functions .................................................................................................................................................................................................. 4
+14. Powers ........................................................................................................................................................................................................ 5
+15. Privilege of members ........................................................................................................................................................................... 5
+16. Enforcement of attendance, etc. ...................................................................................................................................................... 5
+17. Failure to appear or to produce documents before the Commission ................................................................................. 5
+18. Improper disclosure .............................................................................................................................................................................. 5
+19. Improper influence and false information ................................................................................................................................... 6
+20. Secretary and staff ................................................................................................................................................................................ 6
+21. Meetings of the Police Service Commission ............................................................................................................................... 6
+22. Decisions of the Police Service Commission ............................................................................................................................... 6
+23. Dissent ....................................................................................................................................................................................................... 7
+24. Minutes ...................................................................................................................................................................................................... 7
+25. Attendance expenses and allowances ........................................................................................................................................... 7
+26. Commission to hear Inspector General ......................................................................................................................................... 7
+27. Irregular representations ..................................................................................................................................................................... 7
+28. Oath of office .......................................................................................................................................................................................... 7
+29. Character of police service as part of public service ............................................................................................................... 7
+30. Regulations in relation to the powers and functions of the Police Service Commission ............................................. 7
+ii
+Part IV – Appointment and termination of appointment of police officers ................................................................................... 8
+31. Appointment of police officers ......................................................................................................................................................... 8
+32. Arms and accoutrements to be delivered up on ceasing to belong to the Police Service .......................................... 8
+33. Police officers not to engage in other employment ................................................................................................................. 8
+Part V – Powers, duties and privileges of police officers ..................................................................................................................... 8
+34. General powers and duties of police officers ............................................................................................................................. 8
+35. Search by police officers ..................................................................................................................................................................... 9
+36. Power to take measurements, photographs, footprints and casts thereof ..................................................................... 10
+37. Power to lay information .................................................................................................................................................................. 10
+38. No fee to be chargeable on bail bonds taken by police ...................................................................................................... 10
+39. Power of police officers to inspect licences, permits and other authorizations, and inspect vehicles .................. 10
+40. Duty to keep order on public roads ............................................................................................................................................ 11
+41. Road barriers ......................................................................................................................................................................................... 11
+42. Prohibition or restriction of traffic ............................................................................................................................................... 12
+43. Imposition of curfews ........................................................................................................................................................................ 12
+44. Power to use firearms ....................................................................................................................................................................... 13
+45. Power to seize weapons ................................................................................................................................................................... 13
+46. Attendance of witnesses .................................................................................................................................................................. 14
+47. Disposal of unclaimed property ..................................................................................................................................................... 14
+48. Non-liability for act done under authority of warrant .......................................................................................................... 15
+49. Notice of action or prosecution against a police officer ...................................................................................................... 15
+50. Salary, benefits, etc.. of a police officer not to be attached for money .......................................................................... 16
+Part VI – Discipline .......................................................................................................................................................................................... 16
+51. Disciplinary Code of Conduct — offences by police officers triable by criminal courts ............................................. 16
+52. Disciplinary Code of Conduct — offences against discipline by police officer .............................................................. 17
+53. Exercise of disciplinary powers over police officers .............................................................................................................. 17
+54. Methods of dealing with offences against discipline ............................................................................................................ 17
+55. Establishment of disciplinary committees ................................................................................................................................. 17
+56. Functions, composition and procedure of the National Police Disciplinary Committee ............................................ 18
+57. Functions, composition and procedure of a subordinate police disciplinary committee ........................................... 18
+58. Independence of police disciplinary committees .................................................................................................................... 19
+59. Power to summon and examine witnesses and to adjourn inquiry ................................................................................. 19
+60. Punishments for offences against discipline ............................................................................................................................ 19
+61. Summary dealing in certain cases ............................................................................................................................................... 20
+62. Suspended punishment .................................................................................................................................................................... 20
+iii
+63. Appeals from a police disciplinary committee ......................................................................................................................... 20
+64. Decisions of the National Police Disciplinary Committee and the Police Service Commission on appeal ........... 21
+65. Appeals to the High Court .............................................................................................................................................................. 21
+66. Power of arrest and remand for offences .................................................................................................................................. 21
+67. Criminal proceedings to take precedence over disciplinary proceedings ....................................................................... 22
+68. Power of interdiction ......................................................................................................................................................................... 22
+69. Dismissal of a police officer convicted of a criminal offence ............................................................................................. 22
+70. Pay not to accrue during absence without leave or imprisonment .................................................................................. 23
+71. Fines to be recovered by stoppage of pay ................................................................................................................................ 23
+72. Damage to or loss of equipment .................................................................................................................................................. 23
+73. Pension rights lost by dismissal .................................................................................................................................................... 23
+74. Membership of trade union prohibited ...................................................................................................................................... 23
+75. Mode of complaint by a police officer ........................................................................................................................................ 24
+76. Evidence to prove a disciplinary charge to be presented by police prosecutors ......................................................... 24
+77. Jurisdiction of ordinary courts not affected ............................................................................................................................... 24
+Part VII – Police Rewards and Fines Fund .............................................................................................................................................. 25
+78. Establishment of the Police Rewards and Fines Fund .......................................................................................................... 25
+79. Rewards to police officers as informers payable to the Fund ............................................................................................ 25
+Part VIII – Malawi Police Reserve ............................................................................................................................................................... 25
+80. Establishment of Police Reserve ................................................................................................................................................... 25
+81. Engagement and declaration .......................................................................................................................................................... 25
+82. Inspector General to have command .......................................................................................................................................... 26
+83. Calling up ............................................................................................................................................................................................... 26
+84. Annual training .................................................................................................................................................................................... 26
+85. Disciplinary powers over pay of reserve members on calling-up and training ............................................................ 26
+86. Annual retainer .................................................................................................................................................................................... 26
+87. Discharge ................................................................................................................................................................................................ 27
+88. Uniforms, equipment, arms, etc. ................................................................................................................................................... 27
+89. Notification of change of address ................................................................................................................................................ 27
+90. General offences .................................................................................................................................................................................. 27
+91. Discharge on conviction ................................................................................................................................................................... 27
+Part IX – Regulation of assemblies and demonstrations ................................................................................................................... 27
+92. Interpretation ........................................................................................................................................................................................ 27
+93. Appointment of convener and authorized persons ................................................................................................................ 28
+94. Functions and duties of a convener ............................................................................................................................................ 29
+iv
+95. Functions and duties of a District Commissioner or persons authorized by him ........................................................ 29
+96. Notice of assembly or demonstration ......................................................................................................................................... 29
+97. Information regarding a proposed assembly or demonstration of which notice has not been given ................... 30
+98. Consultations, negotiations, and amendments of notices ................................................................................................... 31
+99. Refusal of, and conditions regarding, an assembly or a demonstration ......................................................................... 31
+100. Procedure on postponement or cancellation of an assembly or demonstration ....................................................... 32
+101. Prevention and prohibition of an assembly or a demonstration .................................................................................... 32
+102. Review and appeals ......................................................................................................................................................................... 32
+103. Assembly or demonstration and assembly in the vicinity of parliament, state residences and courts .............. 33
+104. Conduct of assemblies and demonstrations, and appointment of marshals .............................................................. 33
+105. Powers of a police officer in relation to assemblies and demonstrations ................................................................... 34
+106. Liability for damage arising from assemblies and demonstrations ............................................................................... 36
+107. Prohibition weapons at assemblies and demonstrations ................................................................................................... 36
+108. General offence for contravening this Part ............................................................................................................................ 36
+109. General punishment for offences against this Part ............................................................................................................. 36
+110. Spontaneous assembly or demonstration ............................................................................................................................... 37
+111. Regulations in relation to assemblies and demonstrations .............................................................................................. 37
+Part X – Public order at football matches .............................................................................................................................................. 37
+112. Application of this Part .................................................................................................................................................................. 37
+113. Disorderly conduct at football matches ................................................................................................................................... 37
+114. Use of force to disperse disorderly crowds at football matches ..................................................................................... 38
+115. Football clubs to appoint marshals ........................................................................................................................................... 38
+116. Role of national body responsible for football administration ....................................................................................... 38
+117. Liability of football clubs for actions of supporters and players .................................................................................... 38
+118. Extension to other designated sporting events .................................................................................................................... 38
+Part XI – Community policing ...................................................................................................................................................................... 39
+119. Objectives of community policing ............................................................................................................................................. 39
+120. Establishment of community police forums ........................................................................................................................... 39
+121. Membership of a community police forum ............................................................................................................................. 39
+122. Functions of a community police forum .................................................................................................................................. 39
+123. Discharge on conviction ................................................................................................................................................................ 40
+Part XII – Lay visitors to police station ................................................................................................................................................... 40
+124. Establishment and objectives of the scheme of lay visitors ............................................................................................ 40
+125. Appointment ....................................................................................................................................................................................... 40
+126. Disqualification .................................................................................................................................................................................. 41
+v
+127. Guidelines for lay visitors .............................................................................................................................................................. 41
+Part XIII – Independent Police Complaints Commission .................................................................................................................... 41
+128. Establishment of the Independent Complaints Commission ............................................................................................ 41
+129. Functions of the Commission ...................................................................................................................................................... 41
+130. Powers of the Commission ........................................................................................................................................................... 41
+131. Independence of the Commission .............................................................................................................................................. 42
+132. Composition of the Commission ................................................................................................................................................. 42
+133. The Independent Complaints Commissioner ......................................................................................................................... 42
+134. Removal of the Independent Complaints Commissioner ................................................................................................... 42
+135. Functions of the Independent Complaints Commissioner ................................................................................................. 42
+136. Other personnel of the Commission ......................................................................................................................................... 43
+137. Terms and conditions of service .................................................................................................................................................. 43
+138. Funds of the Commission .............................................................................................................................................................. 43
+139. Accounts ............................................................................................................................................................................................... 43
+140. Offences of obstructing officers of the Commission ........................................................................................................... 43
+141. Immunities and privileges ............................................................................................................................................................. 43
+142. Identity document ............................................................................................................................................................................ 43
+143. Disclosure of information an offence ....................................................................................................................................... 43
+144. Operational instructions ................................................................................................................................................................ 44
+145. Officer in-charge of police to report deaths or injury in police custody or action ................................................... 44
+146. Annual reports ................................................................................................................................................................................... 44
+147. Powers, etc., under any other written law .............................................................................................................................. 44
+148. Regulations in relation to the Commission ............................................................................................................................ 44
+Part XIV – Miscellaneous ............................................................................................................................................................................... 44
+149. Powers to prosecute under other law not to be affected ................................................................................................. 44
+150. Harboring on licensed premises police officers while on duty ....................................................................................... 45
+151. Unlawful possession of articles supplied to police officers ............................................................................................. 45
+152. Persons causing disaffection, etc. .............................................................................................................................................. 45
+153. Disorderly conduct in courts, police stations, etc. ............................................................................................................... 45
+154. Being found upon police premises without lawful authority .......................................................................................... 45
+155. Regulations and rules ..................................................................................................................................................................... 46
+Schedule (Section 52) ...................................................................................................................................................................................... 46
+vi
+Police Act (Chapter 13:01) Malawi
+Malawi
+Police Act
+Chapter 13:01
+Commenced on 1 August 2010
+[This is the version of this document at 31 December 2014.]
+[Note: This version of the Act was revised and consolidated in the Fifth Revised Edition of the Laws of Malawi (L.R.O.
+1/2018), by the Solicitor General and Secretary for Justice under the authority of the Revision of the Laws Act.]
+An Act to provide for the organization, administration and the general powers, duties and functions
+of the Malawi Police Service; to make provision for the functioning of the Police Service Commission
+and for the recruitment, appointment, promotion and discipline of police officers; to establish an
+Independent Complaints Commission as a specialized body to receive and hear complaints by the public
+against police officers and make recommendations thereon; to make provision for the regulation of
+public order in relation to public assemblies, processions and demonstrations and at football matches; to
+make provision for community policing; to provide for a lay visitors scheme to enable lay persons in the
+community make inspection visits to police stations to check conditions of persons there detained; and
+further to provide for connected and ancillary matters
+Part I – Preliminary
+1. Short title
+This Act may be cited as the Police Act.
+2. Interpretation
+In this Act, unless the context otherwise requires—
+“Assistant commissioner” includes a senior assistant commissioner of police;
+“Code” or “Disciplinary Code” means the Disciplinary Code of Conduct established by section 52 and set
+out in the Schedule;
+“Community police forum” means a community policing forum established under Part XI, and includes
+any sub-forum thereof;
+“Criminal offence”, in relation to matters of disciplinary control of police officers, means any offence,
+tribal by a court of criminal jurisdiction prescribed under any written law, including this Act;
+“Inspector General” means the Inspector General of Police appointed under section 154 of the
+Constitution;
+“Independent Complaints Commission” means the body established under Part XIII;
+“Independent Complaints Commissioner” means the public officer appointed under section 132;
+“Junior rank” means the rank of a police officer of or below sub-inspector, and “junior police officer” shall
+be construed accordingly;
+“Lay visitors’ scheme” means the lay visitors scheme established under Part XII;
+“National Police Disciplinary Committee” means the National Police Disciplinary Committee
+established under section 55;
+“Offence against discipline” means a disciplinary offence prescribed in the Code of Conduct or otherwise
+prescribed in this Act;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 1
+Police Act (Chapter 13:01) Malawi
+“Officer in-charge of police” means a police officer appointed by the Inspector General to be in-charge of
+the police stationed in any area;
+“The Police”, “the Police Service” or “the Service” means the Malawi Police Service established under
+Chapter XV of the Constitution;
+“Police disciplinary committee” includes the National Police Disciplinary Committee and a subordinate
+police disciplinary committee;
+“Police officer” means any member of the Police Service;
+“Police Reserve” means the Malawi Police Service Reserve established under Part VIII;
+“Police Rewards and Fines Fund” means the fund established under Part VII;
+“Police Service Commission” means the body by that name established under section 155 of the
+Constitution and provided for under Part III of this Act;
+“Police station” means any place appointed by the Inspector General to be a police station and,
+where appropriate, includes the police formation constituting the national headquarters or a regional
+headquarters of the Police;
+“Public place” or “place of public resort” includes any premises or place to which, at the material time,
+the public have, or are permitted to have, access, whether upon a payment or otherwise;
+“region” means any part of Malawi designated under section 11 to constitute a region for the purposes of
+the administration of the Police Service;
+“Senior rank” means the rank of a police officer of or above inspector, and “senior police officer” shall be
+construed accordingly;
+“service”, in relation to service in the Malawi Police Service, does not include service as a member or an
+officer of the Police Service Commission or the Independent Complaints Commission or as a member of a
+community police forum or as a lay visitor under the lay visitors scheme, except for a police officer who is a
+member thereof;
+“Subordinate police disciplinary committee” means a police disciplinary committee established under
+section 55, subordinate to the National Police Disciplinary Committee;
+“superintendent” includes a senior superintendent and an assistant superintendent;
+“Superior police officer” means any police officer of or above the rank of assistant superintendent.
+Part II – Constitution and administration of the Malawi Police Service
+3. The Malawi Police Service
+The Malawi Police Service established under Chapter XV of the Constitution shall operate and function in
+accordance with the provisions of this Act, in addition to the provisions of that Chapter.
+4. General functions of the Police Service
+(1) The Police Service shall be employed in and throughout Malawi for—
+(a) the prevention, investigation and detection of crime;
+(b) the apprehension and prosecution of offenders;
+(c) the preservation of law and order;
+(d) the protection of life, property, fundamental freedoms and rights of individuals;
+(e) the due enforcement of all laws with which the Police are directly charged;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 2
+Police Act (Chapter 13:01) Malawi
+(f) the exercise or performance of such other powers, functions and duties as are conferred
+on the Police by or under this Act or any other written law or as may by law be exercised,
+performed or otherwise discharged by the Police.
+(2) For the performance of any of the functions under subsection (1), the Police shall be entitled to
+carry and to use arms, but shall so use such arms only as authorized by this Act or by any other law.
+5. Constitution of the Police Service
+The Police Service shall comprise the Inspector General, any Deputy Inspector General, Commissioners,
+Deputy Commissioners, Senior Assistant Commissioners, Assistant Commissioners, Senior
+Superintendents, Superintendents, Assistant Superintendents, Inspectors, Sub-Inspectors, Sergeants and
+Constables.
+6. Order of precedence, command and seniority among officers
+(1) The ranks of the Police Service shall have precedence and command in the order set out in section
+5, with the rank of Inspector General as the most senior.
+(2) Police officers holding the same rank shall stand in order of precedence and command according to
+their seniority reckoned by the date of appointment to that rank in the Service or, where the date
+of appointment to that rank in the Service is the same, by the date of their enlistment or, where the
+date of enlistment is the same, by their service number.
+(3) Where a police officer, other than a superior police officer, has been seconded to any branch,
+the word denoting the designation of the branch shall precede the title of the rank held, but the
+seniority of such police officer shall be the same as if he had not been so seconded.
+7. General powers of the Inspector General
+The Inspector General shall, subject to the general directions of the Minister, have the command,
+superintendence and direction of the Police Service, and may, subject to this Act and to any regulations or
+rules made thereunder, make such appointments, promotions, and reductions in ranks and grades, other
+than those of superior police officers and police officers of the rank of inspector, as may be delegated by
+the Police Service Commission in accordance with this Act.
+8. Police standing orders
+(1) The Inspector General may, subject to this Act and to the general directions of the Minister, from
+time to time, make standing orders for observance by all police officers.
+(2) Any police standing orders in force at the commencement of this Act shall be deemed to have been
+made under subsection (1) and shall continue to apply until revoked or amended or replaced by any
+other standing orders made under subsection (1).
+9. High Command of the Police Service
+(1) There shall be a High Command of the Police Service which shall comprise the Inspector General,
+who shall be the head and chairperson of the High Command, every Deputy Inspector General and
+officers of the rank of Commissioner.
+(2) The functions and duties of the High Command shall be the formulation of organizational policy
+and the development of strategic and operational directives for the Police Service.
+(3) The High Command shall have power to determine its own procedure for the conduct of its
+proceedings.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 3
+Police Act (Chapter 13:01) Malawi
+10. Delegation by Inspector General
+The Inspector General may delegate his powers under this Act to a Deputy Inspector General,
+Commissioner, Deputy Commissioner, Senior Assistant Commissioner or an Assistant Commissioner
+except the power granted under section 8 to make standing orders.
+11. Administration of the Police Service
+(1) The Minister may, on the recommendation of the Inspector General, designate any part of Malawi
+as constituting a region of Malawi for the purposes of the administration of the Police Service and
+shall give notification of such designation in the Gazette.
+(2) The Command of the Police in any region shall be vested in such police officer as may be appointed
+by the Inspector General to be in charge of the region and such officer shall carry out the orders of
+the Inspector General in all matters connected with the duties, discipline, interior economy and
+training of the officers under him.
+(3) The control of the police in any area or place within a region shall be vested in such police officer
+as may be appointed by the Inspector General to be in charge of the area or place and such officer
+shall, subject to the orders and directions of the Inspector General, carry out the orders of the
+officer in-charge of the region in all matters connected with the duties, discipline, interior economy
+and training of the officers under him.
+12. Officer in-charge of police to keep prescribed books and to be responsible for stores
+(1) Every officer in-charge of a police station shall keep a general diary or an occurrence book and such
+other books and records, and shall render such returns as the Inspector General may, from time to
+time direct.
+(2) Every officer in-charge of a police station shall be responsible for all public stores and public
+moneys issued and delivered for the use of the detachment under his command and shall account
+for such public stores and public moneys to the Inspector General.
+Part III – Police Service Commission
+13. Functions
+The Police Service Commission established by section 155 of the Constitution shall have, in addition to the
+functions conferred on it by the Constitution, the following functions—
+(a) to formulate schemes of recruitment in the Police Service;
+(b) to provide for and determine the principles to be followed in making promotions in the Police
+Service for the purpose of ensuring uniformity of treatment of, and the standards to be attained by,
+police officers of each rank to qualify for promotion;
+(c) to provide for all matters relating to the procedure for the exercise, and the delegation, of its powers
+of appointment, dismissal and disciplinary control of police officers;
+(d) to adopt general measures necessary to guarantee efficiency and transparency in relation to
+appointments, promotions and disciplinary control in the Police Service; and
+(e) to do or perform such other functions as are conferred on it by or under this Act or any other
+written law.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 4
+Police Act (Chapter 13:01) Malawi
+14. Powers
+The Police Service Commission shall have power—
+(a) as conferred on it by the Constitution, to—
+(i) appoint persons to hold or act in offices in the Police Service other than that of Inspector
+General;
+(ii) confirm appointments and remove from office any persons so appointed;
+(iii) exercise disciplinary control in accordance with this Act over persons so appointed;
+(b) by notice in the Gazette, to declare any additional ranks in the Police Service, fix the precedence of
+such ranks and declare that any such additional rank shall be deemed to be included in any existing
+rank for the purposes of the interpretation of this Act;
+(c) to delegate by directions in writing any of its powers conferred by the Constitution or by this Act or
+by any other written law, to any member of the Commission or to any public officer or public body
+being part of the Malawi Police Service;
+(d) to hear such complaints or appeals from aggrieved police officers relating to the exercise of powers
+delegated under this section; and
+(e) to do and perform all such acts or things as are necessary or expedient for the performance or
+exercise of its functions and powers.
+15. Privilege of members
+Every member of the Police Service Commission shall have such protection and privilege, in case of any
+action or suit brought against him for any act done or attempted to be done in the bona fide execution of
+his duties, as is by law given in respect of acts done or words spoken by a judge of the High Court in the
+exercise of his judicial office.
+16. Enforcement of attendance, etc.
+The Police Service Commission may require any person to attend and give evidence before it concerning
+any matter which it may properly consider in the exercise of its functions and powers and may require the
+production of any documents relating to any such matter by any person attending before it.
+17. Failure to appear or to produce documents before the Commission
+Any person, other than a person who is notified to appear before the Police Service Commission solely in
+connection with his application for appointment to a post in the Police Service, who without reasonable
+cause fails to appear before the Commission when notified to do so by the Commission, or who willfully
+fails to produce any document in his possession when requested to do so by the Commission, commits an
+offence and shall, upon conviction, be liable to a fine of K20,000 and to imprisonment for six months.
+18. Improper disclosure
+(1) No member of the Police Service Commission or any member of the staff of the Commission shall
+publish or disclose to any person, otherwise than in the exercise of his official functions, the
+contents of any document, communication or information whatsoever which has come to his notice
+in the course of his duties.
+(2) Any person who contravenes subsection (1) commits an offence and shall, upon conviction, be
+liable to a fine of K20,000 and to imprisonment for six months.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 5
+Police Act (Chapter 13:01) Malawi
+19. Improper influence and false information
+(1) Any person who directly or indirectly, otherwise than in the course of his duties, by himself
+or by any other person in any manner whatsoever attempts to improperly influence the Police
+Service Commission in the exercise of its functions or powers commits an offence and shall, upon
+conviction, be liable to a fine of K20,000 and to imprisonment for six months.
+(2) Any person who, in connexion with the exercise by the Police Service Commission of its functions
+and powers, willfully gives to the Commission any information which he knows to be false or does
+not believe to be true or which he knows to be false by reason of the omission of any material
+particular commits an offence and shall, upon conviction, be liable to a fine of K20,000 and to
+imprisonment for six months.
+(3) For the purposes of subsections (1) and (2), “Commission” includes the Commission, any member
+of the Commission, any member of the staff of the Commission or any person or body of persons
+appointed or engaged to assist the Commission in the exercise of its functions and powers.
+20. Secretary and staff
+(1) The Police Service Commission shall appoint a Secretary to the Police Service Commission who
+shall be a public officer and the chief executive officer of the Police Service Commission.
+(2) The Police Service Commission shall appoint such other staff as it may, from time to time, consider
+necessary and who shall be public officers.
+(3) The Secretary and other staff of the Police Service Commission shall be subject to the direction of
+the Police Service Commission.
+(4) The Police Service Commission may be served by officers in the public service in common with
+other public service commissions established under the Constitution or under an Act of Parliament,
+and such officers shall be deemed to have been duly appointed for the purposes of this section.
+21. Meetings of the Police Service Commission
+(1) The Police Service Commission shall meet as often as business requires and, in any event, at least
+three times a year.
+(2) A quorum for meetings of the Police Service Commission shall be formed by the presence of any
+three members.
+(3) Meetings of the Police Service Commission shall be presided over by the Chairman or, in his
+absence, by a member elected in that behalf by the members attending the meeting.
+(4) The Police Service Commission shall have power, subject to this Act, to determine its own
+procedures for the conduct of its business.
+22. Decisions of the Police Service Commission
+(1) Subject to subsection (2), at every meeting of the Police Service Commission decisions of the Police
+Service Commission shall be determined by the majority of the members present and voting at the
+meeting.
+(2) The Police Service Commission may make decisions without a meeting by the circulation of the
+relevant papers among the members and the expression of their views in writing, and if there is any
+disagreement as to the decision to be made, or if any member expresses a desire for the decision to
+be deferred, the matter shall be considered at a meeting of the Police Service Commission.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 6
+Police Act (Chapter 13:01) Malawi
+23. Dissent
+Any member of the Police Service Commission shall be entitled to dissent from a decision of the
+Commission and to have his dissent and his reasons therefore recorded in the minutes of the Police
+Service Commission.
+24. Minutes
+The Secretary shall keep minutes of every meeting of the Police Service Commission, which shall include a
+record of the members present.
+25. Attendance expenses and allowances
+Any person attending before the Police Service Commission at the request of the Police Service
+Commission, other than a public officer or a person who is applying for appointment to the Police
+Service, shall be entitled to be paid by the Police Service Commission expenses and allowances as may be
+determined by the Minister, from time to time, on the recommendation of the Police Service Commission.
+26. Commission to hear Inspector General
+At the request of the Inspector General to be heard personally, the Police Service Commission shall hear
+him or his designated representative personally in connexion with any recommendation made by the
+Inspector General to the Police Service Commission.
+27. Irregular representations
+In carrying out its functions and duties under the Constitution, this Act and regulations made under this
+Act, the Police Service Commission shall not take into account any representations made to it otherwise
+than in accordance with the Constitution, the Act or such Regulations.
+28. Oath of office
+(1) Every member of the Police Service Commission, and the Secretary of the Police Service
+Commission and such other members of staff of the Police Service Commission as the Police Service
+Commission may require, shall, on appointment, take an oath of office in the prescribed form.
+(2) A person who is required under subsection (1) to take an oath may instead make a solemn
+affirmation in the prescribed form for the due performance of the duties of his office.
+(3) An oath or affirmation taken by a member of the Police Service Commission shall be administered
+by the Chief Justice, and every oath or affirmation taken by the Secretary or any other member of
+the staff of the Police Service Commission shall be administered by the Chairman of the Police
+Service Commission.
+29. Character of police service as part of public service
+For the avoidance of doubt, the fundamental principles contained in the Public Service Act, for the
+administration of the public service shall be applied to the management and administration of the Police
+Service.
+[Cap. 1:03]
+30. Regulations in relation to the powers and functions of the Police Service Commission
+The Minister may, on the recommendation of the Police Service Commission, make regulations for the
+better carrying out of the provisions of this Part, and regulations made under this section shall be cited as
+the Police Service Commission Regulations.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 7
+Police Act (Chapter 13:01) Malawi
+Part IV – Appointment and termination of appointment of police officers
+31. Appointment of police officers
+(1) Police officers of or above the rank of inspector, other than the Inspector General, shall be
+appointed by the Police Service Commission.
+(2) Police officers below the rank of inspector shall be appointed by the Inspector General in such
+manner as the Police Service Commission may direct and subject to such conditions as the
+Commission may prescribe.
+32. Arms and accoutrements to be delivered up on ceasing to belong to the Police Service
+(1) When a police officer ceases to belong to the Police Service, he shall forthwith deliver up to the
+person appointed by the Inspector General for that purpose, or to the officer in-charge of police at
+the place at which he was last stationed, all arms, ammunition, accoutrements, uniforms and other
+appointments which have been supplied to him and which are the property of the Government.
+(2) Any police officer who, having ceased to belong to the Police Service, fails to deliver up any such
+arms, ammunition, accoutrements, uniforms or other appointments as required by subsection (1)
+commits an offence and shall, on conviction, be liable to a fine of K10,000 and to imprisonment
+for three months, and the court may issue a warrant to search for and to seize all such arms,
+ammunition, accoutrements, uniforms and other appointments which shall not have been so
+delivered up.
+33. Police officers not to engage in other employment
+No police officer shall, without the consent of the Inspector General, engage in any employment or office
+other than in accordance with his duties under this Act.
+Part V – Powers, duties and privileges of police officers
+34. General powers and duties of police officers
+(1) Every police officer shall exercise such powers and perform such duties as are conferred or imposed
+on a police officer by or under this Act or any other written law and as are by law conferred or
+imposed on police officers.
+(2) Every police officer shall—
+(a) obey all lawful directions in respect of the execution of his office which he may from time to
+time receive from any competent authority;
+(b) serve, and be willing to serve, at any station to which he may be assigned; and
+(c) promptly obey and execute all orders and warrants lawfully issued by a competent authority.
+(3) It shall be the duty of every police officer to—
+(a) collect and communicate intelligence affecting the functions, powers and duties of the
+Police;
+(b) prevent the commission of offences and public nuisances;
+(c) detect crime and bring offenders to justice; and
+(d) apprehend all persons whom he is legally authorized to apprehend and for whose
+apprehension sufficient grounds exist.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 8
+Police Act (Chapter 13:01) Malawi
+(4) Every police officer shall be deemed to be on duty at all times and may at any time be detailed for
+duty in any part of Malawi.
+(5) A police officer may, without warrant, enter at any hour of the day or night any premises licensed
+under the Liquor Act or any place in which he has reasonable grounds to suspect that illegal
+drinking or illegal gambling is taking place or to which dissolute or disorderly persons are resorting.
+[Cap. 50:07]
+(6) A police officer may, for the purposes of his duties under this section, without a warrant, enter at
+any hour of the day or night any premises or place in which he has reasonable grounds to suspect
+that an illegal act is taking place.
+(7) Except as otherwise provided by this Act or by the Criminal Procedure and Evidence Code, every
+police officer shall have all such rights, powers, authorities, privileges and immunities, and shall
+be liable to all such duties and responsibilities as any police officer of or below the rank of sub-
+inspector duly appointed has or is subject or liable to, either by common law or by virtue of any law
+in force in Malawi.
+[Cap. 8:01]
+35. Search by police officers
+(1) Where a police officer of or above the rank of sub-inspector has reasonable grounds for believing
+that anything necessary for purposes of an investigation into an offence which he is authorized
+to investigate may be found in any place and that such thing cannot in his opinion be otherwise
+obtained without undue delay, such officer may, after recording in writing the grounds of his belief
+and specifying in such writing, so far as is possible, the thing for which search is to be made, after
+giving the copy of a record thereof to the owner or occupant of the place to be searched, search
+without a warrant, or cause search without a warrant to be made, for such thing in any place
+and, if such thing be found, seize it and carry it before the nearest magistrate empowered to take
+cognizance of the offence to be dealt with according to law.
+(2) A police officer proceeding under subsection (1) shall, if practicable, conduct the search in person.
+(3) If a police officer of the rank referred to in subsection (1) is unable to conduct a search in person as
+required by subsection (2), and there is no other competent officer present to make the search at
+the time, he may, after recording in writing his reasons for so doing, require any officer subordinate
+to him not below the rank of sergeant to make the search; and he shall deliver to such subordinate
+officer an order in writing specifying the place to be searched and, in so far as it is possible, the
+thing for which search is to be made, and such subordinate officer may thereupon search for such
+thing in such place without a warrant.
+(4) Except as otherwise provided in this section, the provisions of the Criminal Procedure and Evidence
+Code as to search warrants shall, so far as may be, apply to a search made under this section.
+[Cap. 8:01]
+(5) Copies of any record made under subsection (1) or subsection (3) shall forthwith be sent to the
+nearest magistrate empowered to take cognizance of the offence and to the owner or occupier of the
+place searched.
+(6) The occupier of the place searched, or some other person in his behalf, shall, in every instance, be
+permitted to attend during the search.
+(7) A search under this section shall be conducted in a humane manner and unnecessary damage or
+destruction to property and humiliation or any harassment of individuals shall be avoided.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 9
+Police Act (Chapter 13:01) Malawi
+36. Power to take measurements, photographs, footprints and casts thereof
+(1) Any police officer in-charge of a police station may take, or cause to be taken, in his presence, for
+the purposes of records and identification, the measurements, photographs, footprints and casts
+thereof of any person in lawful custody or who is subject to police supervision for any offence
+punishable by imprisonment without the option of a fine, whether as an accused or a convicted
+person.
+(2) In the case of footprints, they shall be taken on a prescribed form, which shall contain directions
+for taking footprints, and the police officer taking such footprints shall certify on such form that
+such footprints have been taken by him or caused to be taken in his presence in accordance with the
+directions contained on such form, and that the particulars entered on the form are to the best of
+his knowledge and belief accurate and true.
+(3) Where a person whose measurements, photographs, footprints and casts thereof have been taken
+under subsection (1) is not charged with an offence punishable by imprisonment or is discharged or
+acquitted by a court, and has not previously been convicted of an offence so punishable, all records
+of such measurements, photographs, footprints and casts thereof, and any negatives and copies
+thereof, shall forthwith be destroyed or handed over to such person.
+(4) If any person, when required to do so by a police officer refuses to permit his measurements,
+photographs, footprints and casts thereof to be taken under subsection (1), reasonable force may
+be used by the police to enable such measurements, photographs, footprints and casts thereof to be
+taken.
+(5) Any person who refuses to permit his measurements, photographs, footprints and casts to be taken
+under subsection (1) commits an offence and shall, upon conviction, be liable to a fine of K10,000
+and to imprisonment for one month.
+37. Power to lay information
+Any police officer may lay information before a magistrate and may apply for a summons, a warrant or
+other legal process as may by law issue against any person.
+38. No fee to be chargeable on bail bonds taken by police
+Notwithstanding any other written law or any rule to the contrary, no fee or duty shall be chargeable
+upon bonds in criminal cases recognizances to prosecute or give evidence or recognizances for personal
+appearance or otherwise issued or taken by a police officer, nor shall such bonds or recognizances require
+to be sealed.
+39. Power of police officers to inspect licences, permits and other authorizations, and
+inspect vehicles
+(1) Any police officer may—
+(a) stop and detain any person whom he—
+(i) sees doing any act or thing;
+(ii) sees in possession of any thing; or
+(iii) suspects of doing any act or thing or of being in possession of any thing, for which a
+licence, permit or other authorization is required under any Act and may require such
+person to produce such licence, permit or authorization; or
+(b) stop, search and inspect any vehicle which the police officer has reasonable grounds for
+suspecting—
+(i) is being used in the commission of any offence against any Act; or
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 10
+Police Act (Chapter 13:01) Malawi
+(ii) to have been stolen, whether in Malawi or outside Malawi and whether such vehicle
+may be with the person suspected to have stolen it or with any other person.
+(2) Any person who fails to produce a licence, permit or other authorization when called upon to do
+so by a police officer may be arrested without a warrant, unless he gives his name and address to
+the police officer and otherwise satisfies the police officer that he will duly answer any summons or
+other proceedings which may be taken against him.
+(3) Any person who fails to obey any reasonable signal of a police officer, requiring such person to stop
+any vehicle or who obstructs any police officer in the execution of his duty being exercised under
+this section commits an offence and shall, upon conviction, be liable to a fine of K20,000 and to
+imprisonment for six months; and any police officer may arrest such person without a warrant,
+unless he gives his name and address to the police officer and otherwise satisfies the police officer
+that he will duly answer any summons or other proceedings which may be taken against him.
+(4) Any police officer may cause any vehicle found or suspected on reasonable grounds—
+(a) to have been used for the commission of an offence against any Act; or
+(b) to have been stolen whether in Malawi or outside Malawi, to be moved to the nearest police
+station and there to be detained until released by the officer in-charge of such police station.
+40. Duty to keep order on public roads
+(1) Subject to this Act, it shall be the duty of the Police to regulate and control traffic and to divert all
+or any particular kind of traffic when, in the opinion of an officer in-charge of police, it is in the
+public interest to do so.
+(2) In pursuance of the duty conferred under subsection (1) but without prejudice to the generality of
+that duty, the police may—
+(a) stop, direct or otherwise regulate the course of traffic;
+(b) close any street in the vicinity of the National Assembly or the High Court or any other court
+for purposes of preventing the interruption of the proceedings of the Assembly, the High
+Court or such other court by the noise of the street traffic;
+(c) keep order on public roads, streets, thoroughfares, airports, aerodromes and other landing
+places and at other places of public resort;
+(d) prevent obstructions on the occasion of public assemblies, processions or demonstrations on
+the public roads and streets, or in the neighbourhood of places of public worship during the
+time of worship and in any case when any road, street, thoroughfare, airport or aerodrome or
+other landing place may be thronged or may be liable to be obstructed.
+(3) Any person who opposes or disobeys any lawful order given by a police officer in the performance
+of his duty under this section commits an offence and shall, upon conviction, be liable to a fine of
+K10,000 and to imprisonment for three months.
+(4) Any person who opposes or disobeys any lawful order given by a police officer in the performance of
+his duty under this section may be arrested without a warrant unless he gives his name and address
+or otherwise satisfies the police officer or the officer in-charge of the nearest police station that he
+will duly answer any summons or other proceedings which may be taken against him.
+41. Road barriers
+(1) Notwithstanding any other law in force in Malawi, any superior police officer or any police officer of
+the rank of inspector stationed in any area may, if on reasonable grounds he considers it necessary
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 11
+Police Act (Chapter 13:01) Malawi
+so to do for the maintenance and preservation of law and order or for the prevention or detection of
+crime or for the protection of the rights and freedoms of individuals—
+(a) erect or place barriers, or cause barriers to be erected or placed or a cordon to be formed, in
+or across any road, street or any other public place within Malawi in such manner as he may
+think fit:
+Provided that the safety of road users shall at all times be of paramount consideration;
+(b) cause a cordon to be formed in, across or around any private property in such manner as he
+may think fit, and for that purpose it shall be lawful for the members forming the cordon,
+without the consent of any person, to enter upon any property and do any act or thing
+necessary for the effective formation of the cordon.
+(2) Any police officer may take all reasonable steps to prevent any vehicle being driven past any barrier
+or cordon erected, placed or formed under subsection (1) and any driver of any vehicle who fails to
+comply with any reasonable signal of a police officer, requiring such person to stop such vehicle
+before reaching any such barrier or cordon, shall be guilty of an offence and shall be liable to a fine
+of K50,000 and to imprisonment for twelve months.
+(3) No police officer shall be liable for any loss or damage resulting to any vehicle or property or for any
+injury to the driver or any other occupant of such vehicle or to any other persons as a result of the
+driver of such vehicle failing to obey any police officer acting under subsection (2).
+42. Prohibition or restriction of traffic
+(1) Notwithstanding any other law in force in Malawi, the Inspector General may, if on reasonable
+grounds he considers it necessary so to do for the maintenance and preservation of law and
+order, or for the prevention or detection of crime, or for the protection of rights and freedoms
+of individuals, by order published in the Gazette, prohibit or restrict the driving or use of motor
+vehicles or any class of motor vehicles on specified roads or specified parts of roads or in any
+specified areas either generally or in such circumstances or subject to such conditions as may be
+specified.
+(2) Any order made under subsection (1) may—
+(a) make different provision for different roads or parts of roads and for different areas and for
+different days or hours;
+(b) provide for the issue by the Inspector General, or by any person authorized by him, of a
+written permit exempting any motor vehicle or class of motor vehicles or any person or class
+of persons from the order or any part thereof either generally or in such circumstances or
+subject to such conditions as may be specified in any such permit.
+(3) Any order made under this section may be revoked, modified or rescinded by any subsequent order
+made under this section and shall have effect, after publication in the Gazette, from such date and
+for such period or periods as may be specified in the order.
+(4) Any person who drives or knowingly uses, or causes or permits to be driven or used, any motor
+vehicle in contravention of the terms or conditions of any order made under this section commits
+an offence and may be arrested without a warrant and shall, upon conviction, be liable to a fine of
+K20,000 and to imprisonment for six months.
+(5) For the purposes of this section the expressions “motor vehicle” and “road” shall have the meanings
+assigned to them in the Road Traffic Act.
+[Cap. 69:01]
+43. Imposition of curfews
+(1) The Minister may, if on reasonable grounds he considers it expedient so to do in the interests of
+preservation and maintenance of law and order, at any time, by order published in the Gazette,
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 12
+Police Act (Chapter 13:01) Malawi
+or in such other manner as he may consider sufficient to bring the order to the knowledge of the
+general public in the area to which it relates, direct that no person in the area or areas specified in
+the order shall be out of doors between such hours as may be prescribed by the order except under
+the authority of a written permit granted by an officer in charge of police.
+Provided that the Minister may—
+(a) exempt from the order such persons or class or classes of persons as may be specified in the
+order;
+(b) authorize any person specified in the order to suspend the operation of the order in any
+specified area, or in any part thereof, and similarly to terminate such suspension and to
+declare the order to be in operation.
+(3) Any person who contravenes any of the provisions of an order made under subsection (1) commits
+an offence and may be arrested without a warrant and shall, upon conviction, be liable to a fine of
+K50,000 and to imprisonment for twelve months.
+[Please note: numbering as in original.]
+44. Power to use firearms
+(1) Subject to subsection (2), any police officer may use any firearm against—
+(a) any person in lawful custody charged with or convicted of a felony when such person is
+escaping or attempting to escape;
+(b) any person who by force rescues or attempts to rescue any other person from lawful custody;
+or
+(c) any person who by force prevents or attempts to prevent the lawful arrest of himself or of any
+other person.
+(2) For the purposes of subsection (1)—
+(a) resort shall not be had to any firearm as authorized under paragraph (a) of that subsection
+unless the police officer has reasonable ground to believe that he cannot otherwise prevent
+the escape and unless he has given warning to such person that he is about to use such
+firearm against the person and such warning is unheeded;
+(b) resort shall not be had to any firearms as authorized under paragraphs (b) and (c) of that
+subsection unless the police officer has reasonable ground to believe that he or any other
+person is in danger of grievous bodily harm and that he cannot otherwise effect such arrest
+or prevent such rescue;
+(c) no police officer shall, in the presence of his superior officer, use such firearms as authorized
+by that subsection against any person except under the orders of such superior officer; and
+(d) the use of firearms as authorized under subsection (1) shall as far as possible be to disable
+and not to kill.
+(3) The authority vested in a police officer by subsection (1) shall be in addition to and not in
+substitution for any authority to use firearms vested in a police officer by any other law.
+(4) Any police officer, after using any firearm, shall make a report in writing or in the prescribed form
+to the officer in-charge of his police station.
+45. Power to seize weapons
+(1) Any police officer may seize and destroy any weapon carried by any person in public without lawful
+authority or excuse, or with lawful authority or excuse but in such manner as to cause or be likely to
+cause terror to any person.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 13
+Police Act (Chapter 13:01) Malawi
+(2) Where the weapon seized is a firearm, it shall be handed over to the officer in-charge of the nearest
+police station.
+(3) For the purposes of this section, “weapon” means any weapon or other thing which is calculated or
+is likely to cause harm to any person.
+46. Attendance of witnesses
+(1) Any officer in-charge of a police station carrying out an investigation into any offence may, in
+writing, require the attendance before himself of any person who he has reason to believe has any
+knowledge which will assist in such investigation, and such attendance may be required at any
+police station situate within the District in which that person resides or, for the time being, is or is
+found.
+(2) Any person who has been notified to attend, as provided in subsection (1), who fails to attend as
+required, or who, having attended, refuses to give his correct name and address or to answer truly
+all questions that may be lawfully put to him, commits an offence and shall, upon conviction, be
+liable to a fine of K10,000 and to imprisonment for three months:
+Provided that no person may be required to answer any question, the answer to which may tend to
+expose him to any criminal charge, penalty or forfeiture.
+(3) Any police officer may record any statement made to him by any person under this section, whether
+such person is suspected of having committed an offence against any law in force in Malawi or not,
+but before recording any statement from a person whom such police officer has decided to charge,
+or who has been charged with committing any such offence, such police officer shall warn such
+person that any statement which may be recorded may be used in evidence:
+Provided that any such statement shall, whenever possible, be recorded in writing and signed by
+the person making it after it has been read to him in a language which he understands and if he has
+been invited to make any correction he may wish.
+47. Disposal of unclaimed property
+(1) It shall be the duty of every police officer to take charge of unclaimed movable property handed to
+him by any other person (hereinafter in this section referred to as the “finder”) or found by such
+police officer to be unclaimed, and deliver the property to the officer in-charge of the nearest police
+station (hereinafter in this section referred to as the officer in-charge).
+(2) Where the finder is not a police officer, the police officer to whom he hands the property shall ask
+him whether, in the event of no right to the property being established superior to his right as
+finder, he himself claims it and his claim, or his refusal or failure to claim, as the case may be, shall
+be recorded by the police officer and reported by such officer to the officer in-charge at the time of
+the delivery of the property.
+(3) Subject to subsection (4), the officer in-charge shall detain the property and cause a notice to be
+posted in a conspicuous place at the police station specifying such property and calling upon any
+person who may have any claim thereto to appear and establish his claim within six months of such
+notice.
+(4) If the property is of a perishable nature or its immediate sale would, in the opinion of such officer,
+be for the benefit of the owner, he may cause it to be sold forthwith; and the proceeds of such
+sale, after deduction of any expenses reasonably incurred, shall be dealt with in the same manner
+as unsold property is to be dealt with under the provisions hereinafter in this section set forth,
+pending which they shall be deposited in such place and manner as the Inspector General may
+direct.
+(5) The officer in-charge shall forward a copy of the notice under subsection (3) to the Inspector
+General who shall cause particulars thereof to be communicated to police officers in Malawi
+generally.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 14
+Police Act (Chapter 13:01) Malawi
+(6) If, within six months of the posting of the notice under subsection (3), any person establishes to
+the reasonable satisfaction of the Inspector General a claim superior to that of the finder and such
+person is willing and able to take delivery of the property at such reasonable place and time as the
+Inspector General may decide, it shall be delivered to him.
+(7) If, within six months of the posting of the notice under subsection (3), no person establishes a
+superior claim to that of the finder or, having so established a claim, does not take delivery as
+specified in subsection (6), the right to take proceedings for the recovery of such property shall
+cease and the property shall be delivered to the finder, if he then confirms his claim and is willing
+and able to take delivery of the property at such reasonable place and time as the Inspector General
+may decide.
+(8) If the finder does not so claim any such property or does not take delivery thereof as specified, the
+property may, if not already in monetary form, be sold, destroyed or otherwise disposed of in such
+manner as the Inspector General may direct.
+(9) If the property is sold, the proceeds of any such sale shall, after deduction of any expenses
+reasonably incurred in such sale, be apportioned in the following manner—
+(a) one half shall be paid into the Police Rewards and Fines Fund;
+(b) such proportion of the remaining one half as the magistrate may direct shall be paid to the
+finder of the property; and
+(c) the balance shall be paid into the Consolidated Fund.
+(10) Where the unclaimed movable property consists of money, it shall be dealt with in all respects as if
+it were the proceeds of sale under subsection (9).
+(11) Any police officer who purchases any property sold under this section shall be deemed to have
+committed an offence against discipline of conduct prejudicial to the good order of the Service.
+(12) In this section, “movable property” does not include any property which is of such a nature that—
+(a) a police officer cannot transport it manually;
+(b) it is valueless.
+48. Non-liability for act done under authority of warrant
+(1) Where the defence to any suit instituted against a police officer is that the act complained of was
+done in obedience to a warrant purporting to be issued by a judge or magistrate, the court shall,
+upon production of the warrant containing the signature of the judge or magistrate and upon proof
+that the act complained of was done in obedience to such warrant, enter judgment in favour of such
+police officer.
+(2) No proof of the signature of such judge or magistrate as mentioned in subsection (1) shall be
+required unless the court has reason to doubt the genuineness thereof; but where it shall be
+proved that such signature is not genuine, judgment shall nevertheless be given in favor of the
+police officer if it is proved that at the time the act complained of was committed, he believed on
+reasonable grounds that such signature was genuine.
+49. Notice of action or prosecution against a police officer
+(1) No action shall be commenced or prosecution instituted against any police officer in respect of any
+thing done or purported to be done by him under this Act, unless notice in writing of such action or
+prosecution, and particulars thereof, shall have been given to such police officer, and to the officer
+in-charge of police in the place where the act complained of was committed, at least one month
+before the commencement of such action or the institution of such action.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 15
+Police Act (Chapter 13:01) Malawi
+(2) No police officer shall be made a defendant in any civil suit in respect of any act for which he has
+been convicted.
+50. Salary, benefits, etc.. of a police officer not to be attached for money
+No salary, benefit or allowance payable to any police officer shall, by a court order, be liable to be attached,
+sequestered or money levied in respect of any debt or claim for any money borrowed by him or by any
+person on his behalf, or any goods supplied to him or to any person on his behalf, unless such court order
+is made pursuant to any written law authorizing the attachment, sequestration or levy on a person’s salary
+or other employment benefit or allowance.
+Part VI – Discipline
+51. Disciplinary Code of Conduct — offences by police officers triable by criminal courts
+(1) Any police officer who—
+(a) being cognizant of any mutiny or sedition amongst the police, does not use his utmost
+endeavours to suppress such mutiny or sedition;
+(b) being cognizant of any intended mutiny or sedition amongst the police, does not give
+information thereof to his superior officer without delay;
+(c) being present at any assemblage tending to riot, does not use his utmost endeavours to
+suppress such assemblage;
+(d) deserts, as defined in subsection (2);
+(e) persuades, procures, assists or attempts to persuade, procure or assist any police officer to
+desert;
+(f) knowing that any police officer has deserted or intends to desert, does not, without delay,
+give information to his superior officer; or
+(g) strikes, or offers violence to, his superior officer, commits an offence and shall, upon
+conviction, be liable to imprisonment for twelve months.
+(2) A police officer deserts if—
+(a) he absents himself without authority from his police station or from the place where his duty
+requires him to be, with the intention of not returning to that police station or place;
+(b) while absent with authority from his police station or the place where his duty requires
+him to be, he does or omits to do an act the natural and probable consequence of doing or
+omitting to do such act is to preclude his return to that police station or place at the time
+required; or
+(c) he is absent without authority for a continuous period of twenty-one days or more.
+(3) No police officer shall be found guilty of the offence of desertion unless the court is satisfied that
+there was an intention on the part of such officer not to return to the Service.
+(4) Upon reasonable suspicion that any person is a deserter any police officer may, notwithstanding
+subsection (1) of section 66 (requiring the arrest of a police officer without a warrant to be effected
+by a superior officer), apprehend such person without a warrant and forthwith bring him before
+a court having jurisdiction in the place where he was found, and such court may deal with the
+suspected deserter or remit him to a court having jurisdiction in the place in which he deserted.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 16
+Police Act (Chapter 13:01) Malawi
+52. Disciplinary Code of Conduct — offences against discipline by police officer
+(1) The Disciplinary Code of Conduct set out in the Schedule, prescribing offences against discipline by
+police officers, shall apply for the regulation and control of disciplinary conduct of all police officers
+and other persons employed in the Police Service in addition to other provisions of this Act.
+(2) The acts and other forms of conduct, behavior or demeanor specified in the Code shall constitute
+offences against discipline by police officers.
+(3) The Minister may, on the recommendation of the Inspector General, by order published in the
+Gazette, amend the Disciplinary Code of Conduct.
+53. Exercise of disciplinary powers over police officers
+(1) The power to discipline any police officer, other than the Inspector General, for an offence against
+discipline shall—
+(a) in the case of a superior police officer and a police officer of or above the rank of inspector, be
+exercised by the Police Service Commission;
+(b) in the case of a police officer of or below the rank of sub-inspector and any other person
+who accepts to perform duties in the Police Service as a police officer, be exercised by the
+Inspector General acting through police disciplinary committees.
+(2) Nothing in subsection (1) shall prevent the Police Service Commission from directly exercising
+disciplinary powers over any police officer other than the Inspector General.
+54. Methods of dealing with offences against discipline
+(1) An offence against discipline committed by a police officer shall be inquired into, tried and
+determined through disciplinary proceedings before the Police Service Commission or before a
+police disciplinary committee, as the case may be, in accordance with this Act and with the Police
+Service Commission Regulations made under section 30.
+(2) It shall be the duty of the Inspector General to investigate a superior police officer or a police officer
+of the rank of inspector for, and to charge such officer with, any offence against discipline for the
+purpose of forwarding such charge to the Police Service Commission for disciplinary proceedings.
+(3) It shall be the duty of the officer in-charge or the relevant superior police officer to investigate a
+police officer of or below the rank of sub-inspector for, and to charge such officer with, any offence
+against discipline for the purpose of forwarding such charge to the relevant police disciplinary
+committee for disciplinary proceedings.
+55. Establishment of disciplinary committees
+(1) There shall be established—
+(a) a standing National Police Disciplinary Committee; and
+(b) other police disciplinary committees, subordinate to the National Police Disciplinary
+Committee.
+(2) A subordinate police disciplinary committee may be appointed whenever a breach of discipline
+occurs at any place and time within the jurisdiction of the following formations—
+(a) regional police headquarters;
+(b) district police stations;
+(c) police stations or substations or detach; or
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 17
+Police Act (Chapter 13:01) Malawi
+(d) National Police Headquarters.
+56. Functions, composition and procedure of the National Police Disciplinary Committee
+(1) The functions of the National Police Disciplinary Committee shall be—
+(a) to hear and determine appeals against decisions of a subordinate police disciplinary
+committee;
+(b) generally, to review decisions of subordinate disciplinary committees; and
+(c) to do or perform such functions relating to the disciplinary conduct of police officers as are
+conferred on it by or under this Act.
+(2) The National Police Disciplinary Committee shall consist of—
+(a) a presiding Chairperson who shall be a police officer of or above the rank of Commissioner of
+Police;
+(b) one senior police officer;
+(c) a police legal officer;
+(d) the police chaplain or his representative; and
+(e) one junior police officer.
+(3) Members of the National Police Disciplinary Committee shall be appointed by the Inspector General
+with the approval of the Police Service Commission.
+(4) The quorum of the National Police Disciplinary Committee shall be three members including the
+Chairperson.
+(5) In conducting its proceedings, the National Police Disciplinary Committee may sit at any time or
+place within Malawi as it considers appropriate.
+(6) The National Police Disciplinary Committee, on its own motion or on application by the police
+officer charged or by the police prosecutor, may direct that any person subject to a disciplinary
+process by the Committee should be tried by the Police Service Commission.
+(7) The National Police Disciplinary Committee shall have power, subject to the provisions of this Act
+or regulations or rules made under this Act, to determine its own procedure for the conduct of its
+proceedings.
+57. Functions, composition and procedure of a subordinate police disciplinary committee
+(1) A subordinate police disciplinary committee shall hear and determine any disciplinary matter
+involving—
+(a) officers of or below the rank of inspector;
+(b) a member of the Police Reserve; or
+(c) any other person who accepts to perform duties in the Police Service as a police officer, but
+not otherwise.
+(2) A subordinate police disciplinary committee shall consist of—
+(a) presiding Chairperson who shall be a police officer of or above the rank of inspector;
+(b) three other officers above the rank held by the police officer who is charged;
+(c) one officer of the rank held by the police officer who is charged.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 18
+Police Act (Chapter 13:01) Malawi
+(3) Members of a subordinate disciplinary committee shall be appointed by the officer in-charge of the
+relevant police station or other police formation.
+(4) The quorum of a subordinate disciplinary committee shall be three, including the Chairperson.
+(5) A subordinate disciplinary committee shall have power, subject to the provisions of this Act, to
+determine its own procedure for the conduct of its proceedings.
+58. Independence of police disciplinary committees
+(1) Members of any police disciplinary committee and all persons participating in the hearing of
+disciplinary matters shall exercise their duties, functions and powers impartially and independent
+of the interference or directions of any person or body.
+(2) No member of a disciplinary police committee or other person participating in the hearing of a
+disciplinary matter shall be compelled in any cause, proceeding or other matter to answer any
+question as to his own conduct at the hearing or as to anything which came to his knowledge at the
+hearing or in the course of his duties as a member of the committee.
+59. Power to summon and examine witnesses and to adjourn inquiry
+(1) The Police Service Commission or a police disciplinary committee may, in relation to any
+disciplinary matter before it, summon and examine witnesses on oath or affirmation and require
+the production of relevant documents in any matter it is inquiring into and may adjourn any such
+inquiry from time to time as it deems fit.
+(2) Any person summoned as a witness under subsection (1) who fails to attend at the time and place
+mentioned in the summons without proper reasons or having attended refuses to answer all
+questions that may be lawfully put to him commits an offence and shall, upon conviction, be liable
+to a fine of K10,000 and to imprisonment for three months.
+(3) Notwithstanding subsection (2), no person shall be required to answer any question the answer to
+which may tend to expose him to any criminal charge, penalty or forfeiture.
+60. Punishments for offences against discipline
+(1) A police officer who, upon disciplinary proceedings, is found guilty of an offence against discipline
+shall be liable to suffer punishment, as specified in this section, according to the degree and nature
+of the offence.
+(2) Subject to the other provisions of this section, the punishments specified in subsections (3) and
+(4) may be imposed by the Police Service Commission and by a police disciplinary committee,
+respectively, on a police officer found guilty, upon disciplinary proceedings under this Part, of an
+offence against discipline and the Police Service Commission or the committee may impose on such
+police officer one or more of such punishments.
+(3) The Police Service Commission may impose the following punishments—
+(a) reprimand;
+(b) severe reprimand;
+(c) stoppage of increment of salary;
+(d) reduction in rank or grade; and
+(e) dismissal.
+(4) A police disciplinary committee may impose the following punishments—
+(a) reprimand;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 19
+Police Act (Chapter 13:01) Malawi
+(b) severe reprimand;
+(c) fine not exceeding seven days pay;
+(d) stoppage of increment of salary;
+(e) confinement to quarters for any period not exceeding fourteen days with or without drill,
+guards, fatigues or other duty; and
+(f) reduction in rank or grade.
+(5) Where, after disciplinary proceedings held by it, a police disciplinary committee is of the
+view that dismissal is the fitting punishment to be imposed on a police officer, it shall make a
+recommendation to that effect to the Police Service Commission.
+(6) Upon considering the recommendation of a police disciplinary committee submitted under
+subsection (5), the Police Service Commission may direct that the police officer concerned be
+dismissed or may make such other determination, or give such other directions as to punishment or
+otherwise, as it sees fit.
+(7) Notwithstanding that every police officer is deemed by section 34 (4) to be on duty at all times,
+where the commission by a police officer of an offence against discipline is in relation to him being
+on duty, the officer shall not be found guilty of the offence unless it shall be proved that, at the time
+when the offence was committed, he was on a specific duty for which he was specially detailed.
+61. Summary dealing in certain cases
+(1) The Inspector General may summarily administer a reprimand or a severe reprimand to a superior
+police officer or a police officer of the rank of inspector in minor cases of offences against discipline
+or in any other minor cases of misconduct.
+(2) A superior police officer or the officer in-charge of police may deal summarily with any offence
+against discipline in the case of any police officer of or below the rank of sub-inspector and shall
+have power to impose the following punishments—
+(a) reprimand;
+(b) extra drill, guards, fatigues or other duty, but such proceedings and the results thereof shall
+not be entered in the personal record of the police officer who has offended.
+62. Suspended punishment
+(1) Where a punishment other than dismissal is imposed on a police officer in respect of an offence
+against discipline, the authority imposing the punishment may order that such punishment be
+suspended for a period not exceeding six months and if during such period of suspension, the
+offender commits no further offence against discipline the committee may remit the punishment.
+(2) Where any punishment has been suspended under subsection (1) and the offender is found guilty,
+during the period of the suspension, of any further offence against discipline, the suspended
+punishment may forthwith be carried into effect.
+63. Appeals from a police disciplinary committee
+(1) Any person aggrieved by a decision of a police disciplinary committee may, within fourteen days
+after being informed of the decision, appeal—
+(a) in the case of a decision of a subordinate disciplinary committee, to the National Police
+Disciplinary Committee;
+(b) in the case of a decision of the National Police Disciplinary Committee, to the Police Service
+Commission.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 20
+Police Act (Chapter 13:01) Malawi
+(2) An appellant shall submit his appeal to the officer in-charge of his police station.
+(3) The officer in-charge on receiving an appeal submitted under subsection (2), shall transmit the
+appeal to the National Police Disciplinary Committee or to the Police Service Commission, as the
+case may be, within fourteen days of receiving the appeal and shall so transit it together with the
+record of the police disciplinary committee which shall be supplied to him for the purpose.
+(4) An appeal shall be properly lodged to the National Police Disciplinary Committee or to the Police
+Service Commission, as the case may be, if based on one or more of the following grounds—
+(a) erroneous findings;
+(b) illegality of punishment;
+(c) any miscarriage of justice;
+(d) a point of law; or
+(e) severity of punishment.
+64. Decisions of the National Police Disciplinary Committee and the Police Service
+Commission on appeal
+(1) Upon the hearing of an appeal, the National Police Disciplinary Committee or the Police Service
+Commission, as the case may be, may—
+(a) allow the appeal and quash the finding and set aside the punishment;
+(b) dismiss the appeal and affirm the finding and punishment;
+(c) affirm the finding of guilty but vary the sentence as it considers fit, but no punishment shall
+be increased or any punishment added on appeal unless the offender is first given a further
+opportunity of being heard; and
+(d) direct a rehearing on the charge in which case the appellant shall be heard again as if no
+hearing on the charge has been held.
+(2) An appeal may be summarily dismissed by the National Police Disciplinary Committee or the Police
+Service Commission, as the case may be, if, in its opinion—
+(a) it is vexatious;
+(b) it is frivolous;
+(c) it is an abuse of process; and
+(d) there has been no substantial miscarriage of justice.
+65. Appeals to the High Court
+Any police officer who is found guilty of an offence against discipline and is aggrieved by the decision of
+the Police Service Commission to dismiss him from the Police Service or otherwise punish him may, within
+thirty days after receiving notification of the decision, appeal to the High Court against the decision.
+66. Power of arrest and remand for offences
+(1) Any police officer who commits a criminal offence or an offence against discipline may be arrested
+without a warrant by a superior officer.
+(2) A police officer effecting an arrest under this section shall forthwith bring the accused before an
+officer in-charge of the police station or any other competent officer without undue delay and in
+any event within forty-eight hours of the arrest.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 21
+Police Act (Chapter 13:01) Malawi
+(3) Where the arrest is for a criminal offence, the officer in-charge or the competent officer, as the case
+may be, shall cause the case to be brought before a court of criminal jurisdiction within forty-eight
+hours of the arrest, failing which the arrested police officer shall forthwith be released from arrest.
+(4) All police officers arrested for any offence against discipline, if remanded in custody, shall be
+confined in a place set apart as a guardroom or cell for the detention of such police officers.
+(5) A police officer arrested in respect of any criminal offence or any offence against discipline, shall
+be informed at the time of his arrest, or as soon as is practicable thereafter, of the nature of the
+offence.
+67. Criminal proceedings to take precedence over disciplinary proceedings
+(1) If criminal proceedings are instituted against a person, no disciplinary proceedings under this
+Act shall be taken against that person until the conclusion of the criminal proceedings and the
+determination of appeal from those proceedings.
+(2) For the purposes of subsection (1), criminal proceedings against an officer shall be deemed to have
+concluded on the acquittal, conviction or discharge of the officer.
+68. Power of interdiction
+(1) The Inspector General may at any time in the interest of discipline interdict from duty any police
+officer who is charged with a criminal offence or an offence against discipline.
+(2) Any police officer interdicted from duty shall receive such proportion of his pay not being less than
+half, as the Inspector General shall direct:
+Provided that where the officer is interdicted for misappropriation of public funds or that he
+obtained his appointment by means of false representation he shall receive no salary during the
+period of his interdiction.
+(3) An interdiction under this section, if it relates to a disciplinary offence, shall not exceed a period
+of three months; and after the expiry of that period the officer, if not brought before a police
+disciplinary committee shall be deemed to have been re-instated.
+(4) If the officer is not subsequently dismissed from the Service, he shall receive for the period of his
+interdiction the proportion of his pay that was withheld, except the amount adjudged to be forfeited
+as punishment.
+(5) A police officer shall not by reason of being interdicted from office cease to be a police officer,
+but during the period of such interdiction the powers, functions and privileges vested in him as a
+police officer shall be in abeyance but he shall continue to be subject to the same responsibilities,
+discipline and penalties, and to the same authorities, as if he had not been interdicted.
+(6) Where the officer interdicted under this section is a superior police officer or an officer of or above
+the rank of inspector, the Inspector General shall make a report of the interdiction to the Police
+Service Commission.
+(7) An officer interdicted under this section may not leave Malawi without the permission of the
+Inspector General.
+69. Dismissal of a police officer convicted of a criminal offence
+(1) The Inspector General shall notify the Police Service Commission of the case of any police officer
+who has been convicted of a criminal offence by a court of competent jurisdiction and the Police
+Service Commission may dismiss such officer from the Police Service.
+(2) Any police officer dismissed under this section may, within thirty days of the notification of his
+dismissal, appeal to the High Court against the dismissal.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 22
+Police Act (Chapter 13:01) Malawi
+70. Pay not to accrue during absence without leave or imprisonment
+No pay shall accrue to any police officer in respect of any day during which he is absent from duty without
+leave or is undergoing any sentence of imprisonment:
+Provided that in any case the Inspector General may, in his discretion, authorize the payment of such
+proportion of pay, not being more than one-half, as he may think fit.
+71. Fines to be recovered by stoppage of pay
+(1) All fines imposed on a police officer as punishment in respect of an offence against discipline shall
+be recovered by stoppage of the officer’s pay or by deductions from any benefits due to the officer,
+including benefits due upon his death.
+(2) The amount of any stoppage in respect of any fine shall be at the discretion of the officer in-charge
+of police in the place where the officer is stationed, but in no case shall such amount exceed one-
+third of the officer’s monthly pay.
+(3) Where more than one order of stoppage is in force against the same officer so much only of his pay
+shall be stopped as shall leave him a residue of at least two-thirds of his monthly pay, save for other
+authorized deductions or stoppages.
+(4) Where more than one order of stoppage is made upon the same officer, the orders later in date
+shall, if necessary, be postponed as to their enforcement until the earlier orders have been
+discharged.
+72. Damage to or loss of equipment
+If any police officer pawns, sells, loses by neglect, makes away with or willfully damages any arms,
+ammunition, accoutrements, clothing or appointment supplied to him or any Government property or
+any exhibit or any lost, stolen or unclaimed property committed to his charge he may, in addition to or
+in lieu of any other punishment, be ordered by the Inspector General or any appropriate superior police
+officer or by his officer in-charge to make good the amount of such loss or damage, and such amount may
+be recovered by stoppage from his pay in the same manner as provided for the recovery of fine by stoppage
+of pay under section 71.
+73. Pension rights lost by dismissal
+(1) Subject to subsection (2) and to the provisions of any law for the time being in force in Malawi, a
+police officer who is dismissed from the Police Service shall forfeit all rights and claims to—
+(a) any pension, gratuity or other terminal benefits;
+(b) any benefits in respect of any passages at public expense;
+(c) any leave or any unpaid leave grant.
+(2) Where an officer liable to be dismissed has attained qualifying service for retirement under any
+prescribed circumstances, he may instead be retired from the Police Service if the Inspector General
+so recommends and subsection (1) shall not apply, unless the charge proved against him involves
+misappropriation of, or failure to account for, public funds or public stores committed to his charge
+or under his control.
+74. Membership of trade union prohibited
+(1) It shall not be lawful for any police officer to be or to become a member of—
+(a) any trade union or any body or association affiliated to a trade union;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 23
+Police Act (Chapter 13:01) Malawi
+(b) any body or association, the objects or one of the objects of which is to control or influence
+conditions of employment in any trade or profession; or
+(c) any body or association, the objects or one of the objects of which is to control or influence
+the pay, pension or conditions of service other than—
+(i) any police association constituted and regulated pursuant to rules made under this
+Act;
+(ii) or any body or association which the Inspector General may in his discretion permit
+any police officer to join.
+(2) Any police officer who contravenes this section commits an offence against discipline and shall
+be liable to be dismissed from the Service and, subject to section 73 (2), to forfeit all rights to any
+pension or gratuity.
+(3) If any question arises as to whether any body is a trade union or association to which this section
+applies, the question shall administratively be decided in accordance with the legal opinion of the
+Attorney General.
+75. Mode of complaint by a police officer
+(1) Where any police officer thinks himself wronged—
+(a) in any matter by any police officer of a lower rank than the officer in-charge of police in the
+place where he is stationed, he may complain to the officer in-charge of police;
+(b) by his officer in-charge of police or any officer of the same rank as his or of higher rank, not
+being the Inspector General, either in respect of his complaint not being redressed or in
+respect of any other matter, he may complain to his regional police commissioner or the
+Inspector General, as appropriate;
+(c) by the Inspector General either in respect of his complaint not being redressed or in respect
+of any other matter, he may complain to the Police Service Commission.
+(2) The officer in-charge, the regional police commissioner, the Inspector General or the Police Service
+Commission, as the case may be, upon receiving a complaint under this section shall cause such
+complaint to be inquired into, and shall, if on inquiry it is determined that there is some merit to
+the complaint, take such steps as may be necessary for giving such redress to the complainant, in
+respect of the matter complained of as the case requires.
+(3) Every complaint shall be made in the manner prescribed by standing orders or rules or regulations
+made under this Act.
+76. Evidence to prove a disciplinary charge to be presented by police prosecutors
+Evidence to prove a charge for an offence against discipline in any hearing before a police disciplinary
+committee shall be presented by members of the police prosecution department.
+77. Jurisdiction of ordinary courts not affected
+Nothing in this Part shall affect the jurisdiction of any ordinary court to try and punish any person for an
+offence triable by a police disciplinary committee.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 24
+Police Act (Chapter 13:01) Malawi
+Part VII – Police Rewards and Fines Fund
+78. Establishment of the Police Rewards and Fines Fund
+(1) All fines imposed under this Act or under Regulations or Rules made under this Act for any offence
+against discipline, and all fines levied for assaults on police officers, and such part of the proceeds
+of the sale of unclaimed property as is authorized under section 47 shall be paid to a fund to be
+called the “Police Rewards and Fines Fund”.
+(2) The Police Rewards and Fines Fund shall be administered by a special committee to be called
+the “Police Rewards and Fines Fund Committee” (hereinafter in this section referred to as the
+“Committee”), which shall consist of the Inspector General, two senior police officers and two
+junior police officers.
+(3) The Committee may, in its discretion, sanction payments from the Police Rewards and Fines Fund
+for any of the following purposes—
+(a) assistance to the spouses or families of deceased police officers, or to any officers discharged
+from the police as medically unfit for further service;
+(b) contributions towards prizes to be given at athletic meetings, assaults-arms and similar
+events organized by or for the benefit of the Police Service;
+(c) the purchase of ammunition for the encouragement of range practice among police officers;
+(d) payments to police officers as rewards for meritorious acts or service in the execution of
+duty, if such payments are not authorized to be met out of moneys provided by Parliament;
+(e) expenditure for the advancement of education, recreation sport, welfare or other similar
+activities organized within the Police Service.
+79. Rewards to police officers as informers payable to the Fund
+All rewards, forfeitures and penalties, which by law are payable to informers shall, when the information is
+laid by a police officer, be paid into the Police Rewards and Fines Fund.
+Part VIII – Malawi Police Reserve
+80. Establishment of Police Reserve
+There shall be established in Malawi a reserve Police Service to be known as the Malawi Police Reserve (in
+this Act otherwise referred to as the “Police Reserve”) which shall consist of former police officers of good
+character to the satisfaction of the Inspector General—
+(a) who have retired from the Service on reaching retirement age; or
+(b) whose contracts with the Police Service have expired; or
+(c) who have been allowed to terminate their service before the expiration thereof, and who offer
+themselves for service in the Police Reserve.
+81. Engagement and declaration
+Every member of the Police Reserve upon joining shall sign an engagement in the prescribed form and
+shall on his admission to the Police Reserve, make and sign an oath or a declaration in the prescribed
+form.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 25
+Police Act (Chapter 13:01) Malawi
+82. Inspector General to have command
+The Inspector General shall have the command, superintendence and direction of the Police Reserve, and
+may make such appointments as he may see fit.
+83. Calling up
+The Inspector General may, by order, call up the whole or any part of the Police Reserve for service
+whenever it appears to him expedient to do so in the interest of the Police Service, and such calling up
+order shall be promulgated in such manner as the Inspector General shall think fit in order to bring it to
+the notice of all the members of the Reserve concerned and shall also be published in the Gazette.
+84. Annual training
+(1) All members of the Police Reserve shall undergo a course of training and instruction for a period of
+not less than one week in every year.
+(2) The times of the courses and the content of the training and instruction to be given to members of
+the Police Reserve shall be the subject of such directions as the Inspector General may, from time to
+time, give in that behalf.
+85. Disciplinary powers over pay of reserve members on calling-up and training
+(1) Where any member of the Police Reserve is called-up for service or is undergoing a course of
+training and instruction, such member shall, during the period of such calling-up or course—
+(a) be subject in all respects to the provisions of the Constitution and this Act as if he were a
+member of the Police Service;
+(b) have and exercise all the powers, duties and privileges conferred upon a member of the
+Police Service by this Act and any other law in force in Malawi; and
+(c) be paid at the current rates of pay appropriate to the rank held by him on completion or
+termination of his engagement in the Police Service.
+(2) Where any member of the Police Reserve attends any training or instruction in addition to the
+annual course under this Part, then for the period of such attendance, the provisions of paragraphs
+(a) and (b) of subsection (1) shall apply to such member but he shall be paid at such rates of pay as
+the Minister shall determine from time to time.
+86. Annual retainer
+(1) Without prejudice to any gratuity or other benefit which any member of the Police Reserve has been
+paid or to which he may be entitled in respect of his service in the Police Service, every member
+who undergoes and completes his course of training under this Part shall be paid an annual retainer
+of an amount equal to one month basic salary calculated at the rate appropriate to the rank held by
+him on completion or termination of his engagement in the Police Service or such higher amount as
+the Minister may determine from time to time.
+(2) The annual retainer payable under subsection (1) shall be paid in such manner and at such time as
+the Inspector General may direct.
+(3) If in any year any member of the Police Reserve is called-up for service and for any reason is not
+required to undergo the course of training and instruction, then for the purposes of subsection (1)
+he shall be deemed to have undergone and completed his course of training and instruction.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 26
+Police Act (Chapter 13:01) Malawi
+87. Discharge
+(1) Any member of the Police Reserve may at any time claim his discharge at the expiry of three
+months after he has given notice in writing to the Inspector General of his wish to be discharged.
+(2) The Inspector General may, if at any time he sees it fit so to do, by giving three months notice in
+writing, discharge any member of the Police Reserve.
+(3) No member of the Police Reserve while called-up for service shall be entitled to obtain a discharge
+therefrom during the continuance of such service.
+88. Uniforms, equipment, arms, etc.
+(1) The Inspector General may provide at the public expense for the use of members of the Police
+Reserve, uniforms, equipment, arms and other necessary articles for the purpose of carrying out
+their duties while called-up for service or undergoing a course of training and instruction.
+(2) At the conclusion of the service or course, every member of the Police Reserve shall deliver up
+in good order, fair wear and tear only excepted, to the Inspector General or to a police officer
+authorized by the Inspector General in that behalf the uniform, equipment, arms or other necessary
+articles which may have been provided to him under this section.
+(3) Any member of the Police Reserve who refuses or neglects to make delivery of uniforms,
+equipment, arms or other necessary articles provided to him under this section commits an offence
+and shall, upon conviction, be liable to a fine of K10,000 and to imprisonment for three months.
+(4) Any court may issue a warrant to search for and seize any uniform, equipment, arm or other
+necessary article, which has not been delivered under subsection (2).
+89. Notification of change of address
+Every member of the Police Reserve shall notify the police station nearest to his place of residence for the
+time being of any change or intended change in his address.
+90. General offences
+Any member of the Police Reserve who, without reasonable cause, neglects or refuses to—
+(a) notify any change of address;
+(b) attend any course of training and instruction; or
+(c) obey any calling up notice,
+commits an offence and shall, upon conviction, be liable to a fine of K20,000 and to imprisonment for six
+months.
+91. Discharge on conviction
+Any member of the Police Reserve who is convicted under this Part shall be liable to be discharged
+forthwith.
+Part IX – Regulation of assemblies and demonstrations
+92. Interpretation
+In this Part, unless the context otherwise requires—
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 27
+Police Act (Chapter 13:01) Malawi
+“assembly” means any assembly, meeting, rally, gathering, concourse or procession of more than fifteen
+persons in or on any public place or premises or on any public road—
+(a) at which the views, principles, policies, actions or failure to act of the Government or any
+other government, or of a political party or political organization, whether or not that party or
+organization is registered under any applicable law, are publicly discussed, attacked, criticized,
+promoted or propagated; or
+(b) held to publicly hand over petitions to any person or to mobilize or demonstrate support for
+or opposition to the views, principles, policies, actions or failure to act of any person or of
+anybody of persons or any institution, including the Government or any other government or any
+governmental institution;
+“branch”, in relation to an organization, includes—
+(a) any section or committee of the organization; or
+(b) any local, regional or subsidiary body forming part of the organization;
+“convener” means—
+(a) any person who, of his own accord, convenes an assembly; or
+(b) in relation to any organization or branch of any organization, any person appointed by such
+organization or branch under section 93;
+“demonstration” means any demonstration, whether by way of a procession, march or otherwise, in or
+on any public place or premises or on any public road, whether by one or more persons, for or against any
+person, organization, cause, action or failure to take action, which is organized to be publicly held for the
+same purposes as in the case of an assembly;
+“marshal” means any person appointed as such under section 104;
+“organization” includes a branch thereof;
+“Public road” has the meaning assigned thereto by the Road Traffic Act;
+[Cap. 69:01]
+“Riot damage” means any loss suffered as a result of—
+(a) any injury to, or the death of, any person;
+(b) or any damage to, or destruction of, any property,
+caused directly or indirectly by, and immediately before, during or after, the holding of an assembly or a
+demonstration.
+93. Appointment of convener and authorized persons
+(1) Any organization which intends to hold an assembly or demonstration shall appoint—
+(a) a convener for that assembly or demonstration; and
+(b) a deputy to the convener appointed under paragraph (a).
+(2) The organization shall forthwith notify the District Commissioner of the area, in writing, of the
+names and addresses of the persons appointed under subsection (1).
+(3) Upon receipt of a notice under subsection (2), the District Commissioner shall in turn notify the
+officer in-charge of the police station concerned.
+(4) If any person appointed under subsection (1) as a convener or a deputy to the convener is or
+becomes unable to perform or to continue to perform the functions for which he is appointed, the
+organization shall forthwith appoint another person in his stead, and shall give particulars of such
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 28
+Police Act (Chapter 13:01) Malawi
+other person as required under subsection (2) to the District Commissioner who shall in turn notify
+the officer in-charge of the police station concerned and a person so appointed shall be deemed to
+have been appointed under subsection (1).
+(5) No further appointment shall be made after the appointment of a person under subsection (4),
+except with the approval of the District Commissioner concerned.
+(6) The police officer in-charge, or another police officer authorized by him in that behalf, shall
+represent the police at consultations or negotiations to be conducted under section 98.
+94. Functions and duties of a convener
+The convener shall—
+(a) give notice under section 98(1);
+(b) be responsible for the arrangements of any intended assembly or demonstration;
+(c) act on behalf of his organization at any consultations or negotiations to be conducted under section
+98, or in connexion with any other procedure provided for in this Act at which his presence is
+required;
+(d) appoint marshals of his organization for the assembly or demonstration; and
+(e) be present at such assembly or demonstration.
+95. Functions and duties of a District Commissioner or persons authorized by him
+The District Commissioner, or persons authorized by him in that behalf, and within whose area an
+assembly or a demonstration is to take place, shall perform the functions, exercise the powers and
+discharge the duties assigned to that office under this Act independent of the direction or interference of
+any other person or authority and with impartiality.
+96. Notice of assembly or demonstration
+(1) Where it is intended to hold an assembly or a demonstration the convener shall give notice,
+in writing, of not less than forty-eight hours and not more than fourteen days to the District
+Commissioner concerned with a copy to the officer in-charge of the police station concerned.
+(2) The District Commissioner shall stamp every notice received under subsection (1) with his official
+stamp, and shall indicate the date and the time the notice was received by him.
+(3) Where the District Commissioner receives two or more notices under subsection (1) for assemblies
+or demonstrations on or at the same place and time, the convener, or the organization of the
+convener, whose notice was first received by the District Commissioner shall be the one entitled to
+hold the assembly or demonstration at such place and lime.
+(4) Where two or more notices are received by the District Commissioner on the same day and time, the
+District Commissioner’s determination as to which notice was received earlier shall be prima facie
+evidence of that fact.
+(5) For the purposes of this section a convener who has given notice to the District Commissioner shall
+be entitled, if he so requests, to receive back a stamped copy of the notice as acknowledgment by
+the District Commissioner of his receipt of the notice.
+(6) Where it is not reasonably possible for the convener to give the notice of a period required under
+subsection (1), he shall give such notice at the earliest opportunity and if such notice is given less
+than twenty-four hours before the commencement of the assembly or demonstration, the District
+Commissioner may by notice to the convener prohibit the assembly or demonstration.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 29
+Police Act (Chapter 13:01) Malawi
+(7) The notice under subsection (1) shall be in the prescribed form, if any be prescribed, and shall
+contain the following information—
+(a) the names and addresses and, if any, the telephone and facsimile numbers of the convener
+and his deputy;
+(b) the name of the organization on behalf of which the assembly or demonstration is convened
+or, if it is so convened, a statement that it is convened by the convener;
+(c) the purpose of the assembly or demonstration;
+(d) the time, duration and date of the assembly or demonstration;
+(e) the place where the assembly or demonstration is to be held;
+(f) the anticipated number of participants;
+(g) the proposed number and, where possible, the names of the marshals who will be appointed
+by the convener, and how the marshals will be distinguished from the other participants in
+the assembly or demonstration;
+(h) in the case of an assembly in the form of a procession or a march—
+(i) the exact and complete route of the procession;
+(ii) the time when and the place at which participants in the procession are to assemble,
+and the time when and the place from which the procession is to commence;
+(iii) the time when and the place where the procession is to end and the participants are to
+disperse;
+(iv) the manner in which participants will be transported to the place of assembly and
+from the point of dispersal;
+(i) the number and types of vehicles, if any, which are to form part of the procession;
+(j) if notice is given less than forty-eight before the date on which the assembly or
+demonstration is to be held, the reason why it was not given timely; and
+(k) if a petition or any other document is to be handed over to any person, the place where and
+the person to whom it is to be handed over.
+97. Information regarding a proposed assembly or demonstration of which notice has not
+been given
+(1) Where a police officer receives information regarding a proposed assembly and he has reason to
+believe that notice under section 96 has not yet been given to the District Commissioner concerned,
+he shall forthwith inform such District Commissioner.
+(2) Where the District Commissioner receives information, other than information from a police officer
+under subsection (1) regarding a proposed assembly or demonstration of which no notice has been
+given to him, he shall forthwith inform the officer in-charge of police concerned regarding the
+proposed assembly or demonstration.
+(3) Without derogation from the functions and duties imposed on a convener by section 94, the District
+Commissioner shall on receipt of such information take such steps as may be deemed necessary,
+including the obtaining of assistance from the police, to establish the identity of the convener of
+such assembly or demonstration, and shall request the convener to comply with the provisions of
+this Act, failing which the assembly or demonstration shall not take place.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 30
+Police Act (Chapter 13:01) Malawi
+98. Consultations, negotiations, and amendments of notices
+(1) If the District Commissioner receives notice in accordance with section 96 or other information
+regarding a proposed assembly or demonstration comes to his attention, he shall forthwith consult
+with the officer in-charge of police concerned regarding the necessity for negotiations on any
+aspect of the conduct of, or any condition with regard to, the proposed assembly or demonstration.
+(2) If, after consultation under subsection (1), the District Commissioner is of the opinion that—
+(a) negotiations are not necessary and that the assembly or demonstration may take place as
+specified in the notice or with such amendments of the contents of the notice as may have
+been agreed upon by him and the convener, he shall notify the convener accordingly;
+(b) negotiations are necessary, he shall forthwith call a meeting between himself and the
+convener, the officer in-charge of police and representatives of such other persons or bodies
+as in the opinion of the District Commissioner ought to be present at such meeting, in order
+to discuss any amendments of the contents of the notice and such conditions regarding the
+conduct of the assembly as he may consider necessary, and the District Commissioner shall
+endeavor to ensure that such discussions take place in good faith.
+(3) If the convener or the officer in-charge of police fails to attend the meeting convened under
+subsection (2) (b) without reasonable excuse, consultations or negotiations or other proceedings
+may be conducted in the absence of such convener or officer in-charge, and the organization or
+the police, as the case may be, shall be bound by the result of such consultations, negotiations or
+proceedings as if they had agreed to the result.
+(4) If a convener has been notified under subsection (2) (d) or has not been called to a meeting in
+accordance with subsection (2) (b) within forty-eight hours after the notice under section 96, the
+assembly or demonstration may take place in accordance with the contents of the notice and in
+accordance with section 104 but subject to sections 101 and 102.
+(5) Where agreement is reached at a meeting convened under subsection 2 (b), the assembly
+or demonstration may take place in accordance with the contents of the notice, including
+amendments, to such contents, on which agreement was reached.
+99. Refusal of, and conditions regarding, an assembly or a demonstration
+(1) Where agreement is not reached on the contents of the notice, or on the conditions regarding the
+conduct, of an assembly or a demonstration, the District Commissioner may, if there are reasonable
+grounds, of his own accord or at the request of the officer in-charge of police, refuse a request for
+the assembly or demonstration or impose conditions with regard to the holding of the assembly or
+demonstration to ensure that—
+(a) vehicle traffic or movement of pedestrians on public roads, especially during traffic rush
+hours, is least impeded;
+(b) an appropriate distance is maintained between participants in the assembly or
+demonstration and a rival or other assembly or demonstration;
+(c) access to property and workplaces is least impeded;
+(d) injury to persons or damage to property is prevented.
+(2) A District Commissioner who refuses a request for an assembly or demonstration or imposes any
+condition under subsection (1) shall give to the convener reasons in writing for his decision.
+(3) The District Commissioner shall ensure as soon as possible that a written copy of his decision made
+under subsection (1) is handed to the convener, the officer in-charge of police and to every person
+who attended the meeting convened under section 98 (2) (b).
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 31
+Police Act (Chapter 13:01) Malawi
+(4) Where the identity of the convener is unknown, or if in view of the urgency of the case it is not
+practicable to deliver a written copy of his decision and the reasons to the convener, the District
+Commissioner shall, notwithstanding any provision to the contrary in any other law, publish a
+notice in one or more of the following manner—
+(a) in a newspaper circulating where the assembly or demonstration is to be held;
+(b) by means of the public radio or public television;
+(c) by the distribution of the notice among the public and the affixing of the notice in public or
+prominent places where the assembly or demonstration is to be held; or
+(d) by the announcement of the notice orally at the place or in the area where the assembly or
+demonstration is to be held; or
+(e) by affixing the notice in a prominent place at the address the convener specified in the notice
+of assembly or demonstration under section 96.
+(5) The convener and the officer in-charge of police shall, respectively, ensure that every marshal and
+every police officer at the assembly or demonstration knows the contents of the notice, including
+any amendments and any conditions that are imposed.
+100. Procedure on postponement or cancellation of an assembly or demonstration
+(1) If an assembly or a demonstration is postponed or delayed, the convener shall forthwith notify
+the District Commissioner and the District Commissioner may call a meeting under section 98
+(2) (b), and thereupon subsections (3), (4) and (5) of section 98 shall apply to the assembly or
+demonstration in question.
+(2) Where an assembly or a demonstration is cancelled, the convener shall forthwith notify the District
+Commissioner of the cancellation and the notice given under section 96 shall lapse.
+(3) If the District Commissioner is notified under this section of the postponement or delay of an
+assembly or a demonstration, he shall forthwith notify the officer in-charge of police accordingly.
+101. Prevention and prohibition of an assembly or a demonstration
+(1) When credible information on oath is brought to the attention of a District Commissioner that
+there is a threat that a proposed assembly or demonstration will result in serious disruption of
+traffic, or in injury to participants in the assembly or demonstration or to other persons, or in
+extensive damage to property, and that the Police may not be able to contain such threat, he shall
+forthwith meet or, if time does not allow it, otherwise consult with the convener and the officer
+in-charge of police and, if possible, any other person with whom, he believes, he should meet or
+consult in order to consider the prohibition of the assembly or demonstration.
+(2) If, after the meeting or consultation referred to in subsection (1), the District Commissioner is
+on reasonable grounds, convinced that no amendment under section 98 and no condition under
+section 99 (1) would prevent the occurrence of any of the circumstances specified in subsection (1)
+of this section, he may prohibit the proposed assembly or demonstration.
+(3) If the District Commissioner decides to prohibit the assembly or demonstration he shall, in a
+manner specified in section 99, notify the convener, the officer in-charge of police and every other
+person with whom he has so met or consulted of the decision and the reasons therefor.
+102. Review and appeals
+(1) Where a condition is imposed in respect of an assembly or a demonstration or when an assembly
+or a demonstration is prohibited in accordance with section 101, the convener of such assembly or
+demonstration may apply to the High Court for the setting aside or amendment of such condition or
+for the setting aside of such prohibition.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 32
+Police Act (Chapter 13:01) Malawi
+(2) An application under subsection (1) shall be made within, and under any circumstances not later
+than, twenty-four hours after the District Commissioner has given notice in accordance with section
+101 of the imposition of, or the refusal to impose the condition in question or the prohibition
+of, or the refusal to prohibit, the assembly or demonstration in question; and such condition or
+prohibition shall, subject to any amendment, remain in force until set aside.
+(3) A convener may appeal against any order made by the High Court under this section.
+(4) No order as to costs shall be made by any court in respect of an application under subsection (1).
+(5) Notwithstanding the other provisions of this section, the convener or any person whose rights may
+be affected by—
+(a) the holding of the assembly or demonstration;
+(b) the prohibition of the assembly or demonstration;
+(c) any term in a notice; and
+(d) failure to impose any condition in relation to the assembly or demonstration, may apply
+to the High Court for the striking out or amendment of any such term or condition or for
+the imposition of any other condition or for permission to hold, or for a prohibition of, the
+assembly or demonstration, and the High Court may strike out, amend or impose any such
+term or condition or grant such permission or prohibit the assembly as it considers to be just
+in the circumstances.
+(6) If the District Commissioner or the High Court, on application, has prohibited an assembly or a
+demonstration at any place, or if the High Court has upheld the prohibition of an assembly at any
+place, or in the case of a demonstration or assembly or demonstration provided for under section
+105, the officer in-charge of police shall—
+(a) at the entrance to or vicinity of the place or area in question, give notice that the place or
+area is closed or inaccessible to members of the public for purposes of that assembly or
+demonstration;
+(b) take such steps to uphold the prohibition as are in the circumstances reasonable and
+appropriate.
+103. Assembly or demonstration and assembly in the vicinity of parliament, state
+residences and courts
+All assemblies and demonstrations within the precincts of any building which is being used as Parliament,
+a State Residence or a court, or at an open-air place within a radius of one hundred meters from such
+building, are prohibited unless authorized by the Speaker, the President, or the Chief Justice, as the case
+may be.
+104. Conduct of assemblies and demonstrations, and appointment of marshals
+(1) This section, in addition to any other provisions of this Part, apply to the conduct of assemblies and
+demonstrations.
+(2) The convener shall appoint such number of marshals as is mentioned in the notice of assembly
+or demonstration or, if it was amended under section 98, in the amended notice, whose role or
+function shall be—
+(a) to control the participants in the assembly or demonstration;
+(b) to take the necessary steps to ensure that the assembly or demonstration at all times
+proceeds peacefully; and
+(c) to ensure that the requirements of this section and the applicable notice and conditions, if
+any, are complied with.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 33
+Police Act (Chapter 13:01) Malawi
+(3) The marshals shall wear distinguishable clothing as approved by agreement of the District
+Commissioner so as to be easily identified by participants and the police.
+(4) The convener shall take all reasonable steps to ensure that all marshals of the assembly or
+demonstration and participants in the assembly or demonstration are informed properly and in
+good time of the conditions to which the holding of the assembly or demonstration is subject.
+(5) The assembly or demonstration shall proceed and take place at the locality or on the route and
+in the manner and during the times specified in the notice or, if the notice was amended, in the
+amended notice, and in accordance with the contents of such notice and any conditions imposed.
+(6) Participants at an assembly or a demonstration shall abide by any law in respect of the carrying of
+dangerous weapons, and the convener and marshal, shall take all reasonable steps to ensure that
+such laws are complied with.
+(7) No person present at or participating in an assembly or a demonstration shall—
+(a) by way of a banner, placard, speech or singing or in any other manner incite hatred of other
+persons or any group of other persons on account of difference in culture, race, gender,
+language, religion or political affiliation;
+(b) use abusive or insulting language in making or delivering a speech or by way of a banner,
+placard or singing; or
+(c) perform any act or utter any words which are calculated or likely to cause or encourage
+violence against any person or group of persons.
+(8) No person shall at any assembly or demonstration wear a disguise or mask or any other apparel or
+item, which obscures his facial features and prevents his identification unless the identity of such
+person is disclosed before hand.
+(9) No person shall at any assembly or demonstration wear any form of apparel that resembles any
+uniforms worn by members of the Police Service or members of the Defence Force of Malawi.
+(10) The marshals at an assembly shall take all reasonable steps to ensure that—
+(a) no entrance to any building or premises is barred by participants so that reasonable access to
+or exit from such building or premises is denied to any person;
+(b) no entrance to any building or premises in or on which is situated a hospital, a fire station or
+an ambulance station or other emergency service is barred by the participants.
+(11) No person shall compel or attempt to compel any person to attend, join or participate in an
+assembly or a demonstration either before or during the assembly or demonstration, and the
+convener and marshals shall take all reasonable steps to prevent any person from being so
+compelled.
+105. Powers of a police officer in relation to assemblies and demonstrations
+(1) Where an assembly or a demonstration is to take place in compliance with the provisions of this
+Part, a police officer—
+(a) if he has reasonable grounds to believe that the police will not be able to provide adequate
+protection for the persons participating in such an assembly or a demonstration, may notify
+the convener and such persons accordingly and shall give them the grounds in writing;
+(b) may prevent persons participating in the assembly or demonstration from proceeding to a
+different place or deviating from the route specified in the notice or in the amended notice
+or from disobeying any condition to which, in accordance with this Act, the holding of the
+assembly or a demonstration is subject;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 34
+Police Act (Chapter 13:01) Malawi
+(c) in a case where the District Commissioner has not received a notice pursuant to section
+96 or has received such notice but not more than forty-eight hours before the assembly
+or demonstration, may restrict the assembly or demonstration to a place, or guide the
+participants along a route, to ensure that—
+(i) vehicle traffic or movement of pedestrian on public roads, especially during rush
+hours, is least impeded;
+(ii) an appropriate distance is maintained between participants in the assembly or
+demonstration and rival assembly or demonstration;
+(iii) access to property and to work places is not impeded, or injury to persons or damage
+to property is prevented;
+(d) may order any person or group of persons interfering or attempting to interfere with an
+assembly or a demonstration to cease such conduct and to remain at a distance, specified by
+him, from such assembly or demonstration;
+(e) where an incident, whether or not resulting from the assembly or demonstration, may cause
+persons to gather at any public place, may by notice in accordance with section 99 (4) specify
+an area considered by him to be necessary for the—
+(i) movement and operation of emergency personnel and vehicles;
+(ii) passage of an assembly or a demonstration;
+(iii) movement of traffic;
+(iv) exclusion of the public from the vicinity; or
+(v) protection of property;
+(f) shall take such steps, including negotiations with the relevant persons, as are in the
+circumstances reasonable and appropriate to protect property and persons, whether or not
+such persons are participating in the assembly or demonstration.
+(2) Where a District Commissioner has prohibited an assembly or a demonstration at any place and the
+High Court has upheld such prohibition or where a police officer of or above the rank of inspector
+has reasonable grounds to believe that danger to persons or property, as a result of the assembly
+or demonstration, cannot be averted by the steps referred to in subsection (1) if the assembly or
+demonstration proceeds, any police officer of or above the rank of inspector, as the case may be,
+may—
+(a) make or cause to be made a proclamation, commencing with the President’s name, in such
+form as may be prescribed or, if no form be prescribed, in such form as he thinks fit to enable
+the persons participating in the assembly or demonstration to disperse; and
+(b) in a loud voice in the English language or in a language understood by the majority of the
+persons present, order the persons to disperse and to depart from the place of the assembly
+or demonstration within a time specified by him, which shall be reasonable.
+(3) Where, pursuant to subsection (2), a police officer orders persons gathered to disperse and such
+persons have not dispersed or have made no preparations to disperse, the police officer may order
+the members of police under his command to disperse the persons concerned and such members
+of police may for that purpose use such force as may be reasonably necessary and as shall be
+appropriate to the circumstances of the case.
+(4) If any person who participates in an assembly or demonstration or any person who hinders,
+obstructs or interferes with persons who participate in an assembly or a demonstration—
+(a) kills or seriously injures, or attempts to kill or seriously injure, or shows a manifest intention
+of killing or seriously injuring, any person; or
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 35
+Police Act (Chapter 13:01) Malawi
+(b) destroys, does serious damage to, or attempts to destroy or to do serious damage to, or shows
+a manifest intention of destroying or doing serious damage to, any property considered to be
+valuable, a police officer of or above the rank of inspector may order the members of police
+under his command to take necessary steps to prevent such action and may for that purpose,
+if he finds other methods to be ineffective or inappropriate, order the use of force, including
+the use of firearms and other weapons.
+(5) The degree of force which may be used under this section shall not be greater that is necessary for
+the prevention of the concerned actions and shall be appropriate to the circumstances of the case.
+106. Liability for damage arising from assemblies and demonstrations
+(1) If any riot damage occurs as a result of an assembly or a demonstration, every organization on
+behalf of or under the auspices of which the assembly or demonstration was held, the convener,
+and every person participating in the assembly or demonstration, as the case may be, shall be liable
+for that damage as a joint wrongdoer together with any other person who unlawfully caused or
+contributed to such riot damage.
+(2) Any person or organization held liable for riot damage under subsection (1) shall, notwithstanding
+that subsection, be deemed to be liable in any civil claim in respect of—
+(a) recourse against, or contribution by, that person or organization for intentionally and
+unlawfully causing or contributing to the cause of the riot damage; or
+(b) contribution by the other person who, or the other organization which, is jointly liable for
+the riot damage.
+(3) This section shall not in any way affect the right, under the common law or any other written law,
+of a person or body to recover the full amount of damages arising from the negligence, intentional
+act or omission committed by or at the behest of any person or body.
+107. Prohibition weapons at assemblies and demonstrations
+(1) Any person who, while present at or taking part in any assembly or demonstration which
+takes place in or on a road or street or at any place of public resort, whether such assembly or
+demonstration has been lawfully convened or not, has with him any weapon otherwise than in
+pursuance of lawful authority, commits an offence and may be arrested without a warrant and shall,
+on conviction be liable to a fine of K100,000 and to imprisonment for two years.
+(2) For the purposes of subsection (1), a person shall be deemed to be acting in lawful authority if he
+is acting in his capacity as a police officer or a member of the Defense Force of Malawi deployed to
+assist the police in the particular instance or as a member of a fire brigade.
+(3) For the purposes of this section, “weapon” means a firearm as defined in the Firearms Act, a knife,
+an axe, or a matchet, or any object, article or thing made or adapted or suitable or suited for causing
+injury to a person or intended by the person having it with him for such use by him or by any other
+person.
+[Cap. 14:08]
+108. General offence for contravening this Part
+Any person who does any act or thing in contravention of any provision of this Part, not made an offence
+under any other provision of this Part commits an offence and may be arrested without a warrant.
+109. General punishment for offences against this Part
+A person guilty of an offence under this Part shall, if no other punishment is prescribed, be liable to a fine
+of K50,000 and to imprisonment for twelve months.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 36
+Police Act (Chapter 13:01) Malawi
+110. Spontaneous assembly or demonstration
+It shall be a defense to a charge of convening an assembly or a demonstration in contravention of this Part
+that the relevant assembly or demonstration took place spontaneously.
+111. Regulations in relation to assemblies and demonstrations
+The Minister may make regulations for any of the purposes of this Part and may, in such regulations,
+provide for—
+(a) any further procedure to be followed when dispersing an assembly or demonstration;
+(b) the use of force by police officers, and the further procedure to be followed before the use of force
+against participants in an assembly or demonstration; and
+(c) any other matter in regard to which it may be necessary to make regulations in order to achieve the
+purposes of this Part.
+Part X – Public order at football matches
+112. Application of this Part
+This Part shall apply to all categories of football matches.
+113. Disorderly conduct at football matches
+(1) Any person who, at a football match—
+(a) uses or threatens violence towards another person;
+(b) uses or threatens violence towards property;
+(c) uses threatening, abusive or insulting words or displays disorderly behavior;
+(d) displays any written sign, or other visible representation which is threatening, abusive or
+insulting;
+(e) is found drunk or drinking alcohol on the premises;
+(f) is found in possession of alcohol on the premises;
+(g) without authority, enters the playing surface, perimeter track or the tunnel or corridor for
+players and officials; or
+(h) throws any thing at or towards the playing area or adjacent to the playing area, or an area
+where spectators or others may be present,
+commits an offence and shall, on conviction, be liable to a fine of K20,000 and to an order to
+perform community service.
+(2) A person found guilty under subsection (1) may be liable to a banning order.
+(3) A banning order shall specify the venues and the number of matches which the offender is
+prohibited from attending and shall require the offender to report and remain at the nearest police
+station during those matches.
+(4) Any person who breaches a banning order commits an offence and shall, on conviction, be liable to
+a fine of K10,000 and to imprisonment for three months.
+(5) A police officer may arrest without a warrant a person who—
+(a) commits an offence under subsection (1); or
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 37
+Police Act (Chapter 13:01) Malawi
+(b) he reasonably suspects of breaching a banning order.
+114. Use of force to disperse disorderly crowds at football matches
+(1) In the dispersal of a disorderly crowd at a football match, a police officer of or above the rank of
+inspector may authorize the use of force by the police to prevent breach of peace.
+(2) Where every effort to disperse the crowd by persuasive measures has failed, force may be used
+under subsection (1) as a last resort, and any such measure of last resort shall be used only where
+escape routes are available.
+(3) No firearms shall be used to disperse crowds under subsection (1) unless persuasive measures are
+not practicable; and the use of firearms in this case shall be subject to the conditions laid down in
+section 44 (2) notwithstanding that the circumstances may not be similar.
+115. Football clubs to appoint marshals
+(1) Every club participating in a football match shall appoint a specified number of marshals to control
+the supporters of that club and to take the necessary steps to ensure that the football match
+proceeds peacefully.
+(2) For the purposes of subsection (1), every club shall submit the names of persons appointed as
+marshals to the officer in-charge of the nearest police station at least forty-eight hours before the
+date of the match.
+(3) The marshals shall wear distinguishable clothing as approved by agreement of the national body
+responsible for football administration so as to be easily identified by the supporters and the police.
+116. Role of national body responsible for football administration
+(1) The national body responsible for football administration shall, from time to time, and in liaison
+with football clubs, owners of football match venues, and the police, issue guidelines outlining the
+role of football clubs and the owners of football match venues, respectively, in ensuring public order
+at football matches.
+(2) The guidelines issued under subsection (1) shall, among other things, specify the minimum number
+of marshals to be appointed by each club participating in a football match.
+117. Liability of football clubs for actions of supporters and players
+(1) Where violence erupts at a football match causing damage to property or injury to a person, a
+football club shall be jointly and severally liable for the damage and injury caused by the supporters
+or players of that club.
+(2) Subsection (1) shall apply whether the damage or injury is caused while the supporters or players
+were on the way to or from the football match.
+(3) Where it is not possible to ascertain which club whose supporters or players caused the damage or
+injury, both clubs participating in the football match shall be jointly and severally liable.
+118. Extension to other designated sporting events
+(1) The Minister may, by Order published in the Gazette, extend the application of this Part to other
+designated sporting events.
+(2) An Order under subsection (1) may make such modifications of the provisions of this Part as are
+necessary and applicable by virtue of the Order.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 38
+Police Act (Chapter 13:01) Malawi
+Part XI – Community policing
+119. Objectives of community policing
+The Malawi Police Service shall liaise with communities, through community police forums, with a view to
+—
+(a) establishing and maintaining a partnership between the police and the community;
+(b) promoting communication between the police and the community;
+(c) promoting cooperation between the police and the community in fulfilling the needs of the
+community regarding policing;
+(d) improving the rendering of police services to the community at national, regional, district and local
+levels;
+(e) improving transparency in the Police Service and accountability of the police to the community;
+and
+(f) promoting joint identification of problems and solutions to such problems by the police and the
+community.
+120. Establishment of community police forums
+(1) Subject to the directions of the Inspector General, the officer in-charge of a police station may, in
+liaison with local community leaders, establish a community police forum for the area of his police
+station which shall be broadly representative of the local community.
+(2) A community police forum may establish community police sub-forums.
+121. Membership of a community police forum
+(1) A community police forum or sub-forum shall consist of—
+(a) the officer in-charge of a police station or his representative;
+(b) one police officer designated by the officer in-charge of the police station for that purpose;
+and
+(c) at least five other persons from the local community who are independent and of good
+character, identified through liaison between the officer in-charge of the police station and
+the community leaders.
+(2) In establishing a community police forum, the officer in-charge shall ensure that women and the
+youth are represented.
+(3) A member of a community police forum or sub-forum under subsection (1) (c) shall serve for a
+period of two years and shall be eligible for reappointment to serve a second term at the expiry of
+the first term.
+(4) Service as a member of a community police forum shall be on voluntary basis and shall be
+understood by all persons to be such.
+122. Functions of a community police forum
+The functions of a community police forum shall be to—
+(a) collect and report information on crime in the local area;
+(b) organize neighborhood watch groups at local level;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 39
+Police Act (Chapter 13:01) Malawi
+(c) report on common crimes affecting the community so that the police can re-direct their resources
+as appropriate;
+(d) encourage ordinary citizens to report suspicious behavior by individuals;
+(e) ensure regular visible police patrols in the local area;
+(f) ensure that the local police communicate to the people of the local community on activities by the
+police on crime prevention in the area;
+(g) determine the way the police may make their presence felt in the community;
+(h) assess the way the police use resources in dealing with crime in the local community;
+(i) raise public awareness and disseminate information on how community policing works in the
+community concerned; and
+(j) perform any other function that may be necessary and appropriate to advance the objectives of
+community policing specified in section 119.
+123. Discharge on conviction
+Any member of a police forum who is convicted of any offence shall be liable to be discharged forthwith.
+Part XII – Lay visitors to police station
+124. Establishment and objectives of the scheme of lay visitors
+There is hereby established a scheme to be known as the Lay Visitors Scheme (in this Act otherwise
+referred to as the “Scheme”), the objective of which is to enable members of the local community—
+(a) to observe, and comment and report on, the conditions under which persons are detained at police
+stations; and
+(b) to observe the operation and implementation in practice of constitutional, international, statutory
+or other rules governing the welfare of persons detained at police stations,
+with a view to ensuring observance by police officers of the human rights of the detained persons and
+securing greater public understanding and confidence in policing matters.
+125. Appointment
+(1) Subject to subsections (2) and (3), the Minister may, in consultation with the relevant community
+police forums, appoint persons who are independent and of good character to be lay visitors for the
+purpose of the Scheme.
+(2) The Minister shall appoint a panel of at least eight lay visitors for each police station in Malawi.
+(3) In appointing each panel of lay visitors the Minister shall ensure that women are represented and
+shall consider the ethnic diversity and age range of the community.
+(4) A person appointed as a lay visitor shall serve for a period of two years from the date of
+appointment, and shall be eligible for reappointment to serve a second term at the expiry of the
+first term.
+(5) Service as a lay visitor shall be on voluntary basis and shall be understood by all persons to be such.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 40
+Police Act (Chapter 13:01) Malawi
+126. Disqualification
+A person shall be disqualified from being appointed on a panel of lay visitors if he—
+(a) is under twenty-one years or is over sixty-five years of age;
+(b) does not reside or work in the locality for which the panel is to be appointed;
+(c) has been convicted of an offence punishable with imprisonment within five years of the proposed
+date of appointment; or
+(d) holds or is acting in judicial office or is a police officer or a former police officer.
+127. Guidelines for lay visitors
+The Minister may issue guidelines regarding the operation of the Lay Visitor Scheme under this Part.
+Part XIII – Independent Police Complaints Commission
+128. Establishment of the Independent Complaints Commission
+There is hereby established a body to be known as the Independent Complaints Commission (in this Part
+otherwise referred to as the “Commission”) with power to do or perform all such acts and things as it may
+be authorized by or under this Act and any other written law.
+129. Functions of the Commission
+The functions of the Commission shall be—
+(a) to receive and investigate complaints by the public against police officers and the Police Service;
+(b) to investigate death or injury as a result of police action; and
+(c) to investigate all deaths and injuries which occur in police custody.
+130. Powers of the Commission
+(1) For the purpose of carrying out its functions, the Commission shall have power—
+(a) upon receipt of a complaint, to investigate any misconduct or offence allegedly committed by
+a police officer;
+(b) upon receipt of a complaint, to investigate any death or injury in police custody or as a result
+of police action;
+(c) to investigate any matter referred to it by the Minister;
+(d) on its own initiative, to investigate any complaints against a police officer or against the
+Police Service;
+(e) to obtain information from the Inspector General, any police officer or any other person or
+authority as may be necessary for conducting an investigation under this Part;
+(f) to obtain the cooperation of any person as may be necessary for the performance of its
+functions;
+(g) to commence an investigation on any matter as specified in this subsection, notwithstanding
+that an investigation regarding the same matter has been submitted to any other authority
+for any purpose.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 41
+Police Act (Chapter 13:01) Malawi
+(2) The Commission shall—
+(a) make recommendations to the Minister, the Police Service Commission, the Inspector
+General or any other appropriate authority on any findings pursuant to an investigation it
+has conducted under this Part;
+(b) make recommendations to the Minister which it deems necessary regarding any matter
+investigated by it or relating to the performance of its functions.
+131. Independence of the Commission
+(1) The Commission shall function independently of the Malawi Police Service.
+(2) No organ of State and no member or an employee of an organ of State or any other person shall
+interfere with the Commission or any of its personnel in the exercise and performance of its powers
+and functions.
+(3) All organs of State shall accord such assistance as may be reasonably required for the protection
+of the independence, impartiality, dignity and effectiveness of the Commission in the exercise and
+performance of its powers and functions.
+132. Composition of the Commission
+The Commission shall consist of the Independent Complaints Commissioner and other personnel in the
+service of the Commission.
+133. The Independent Complaints Commissioner
+(1) The office of the Independent Complaints Commissioner shall be a public office.
+(2) Nominations for appointment to the office of the Independent Complaints Commissioner shall be
+received from the public following a public advertisement and the successful candidate, who shall
+be qualified as a legal practitioner, shall be appointed by the Public Appointments Committee of the
+National Assembly.
+(3) The Independent Complaints Commissioner shall hold office for a term of five years on first being
+appointed to that office and shall be eligible for reappointment for one more term not exceeding
+five years.
+134. Removal of the Independent Complaints Commissioner
+The Independent Complaints Commissioner may be removed from his office by the Public Appointments
+Committee on the following grounds—
+(a) incompetence;
+(b) incapacity; or
+(c) where he is compromised to the extent that his ability to impartially exercise the duties of his office
+is seriously in question.
+135. Functions of the Independent Complaints Commissioner
+(1) The Independent Complaints Commissioner shall—
+(a) be responsible for the performance and exercise of the functions and powers of the
+Commission;
+(b) be responsible for the management and administration of the Commission;
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 42
+Police Act (Chapter 13:01) Malawi
+(2) The Independent Complaints Commissioner may delegate any of his powers to any members of the
+personnel of the Commission as he may see fit.
+136. Other personnel of the Commission
+The other personnel of the Commission shall be officers of subordinate to the Independent Complaints
+Commissioner and whom he shall appoint as officers in the public service and such other persons as may
+be seconded or transferred to the service of the Commission with his agreement.
+137. Terms and conditions of service
+The terms and conditions of service of the Independent Complaints Commissioner and the other
+personnel of the Commission shall be determined by Parliament on the recommendation of the
+Independent Complaints Commissioner made after he has consulted with the officer for the time being
+responsible for the public service.
+138. Funds of the Commission
+(1) The funds of the Commission shall consist of such sums as may be appropriated by Parliament for
+the purposes of the Commission.
+(2) The Commission may receive any donation of funds, materials and any other form of assistance for
+the purposes of its functions and powers:
+Provided that no such donation shall jeopardize or compromise the independence and impartiality
+of the Commission.
+139. Accounts
+(1) The Independent Complaints Commissioner shall cause to be kept proper books of accounts and
+other records relating to the accounts of the Commission.
+(2) The accounts of the Commission shall be subject to audit by the Auditor General.
+140. Offences of obstructing officers of the Commission
+Any person who interferes or fails to cooperate with, or otherwise obstructs, the Independent Complaints
+Commissioner or any employee of the Commission or other person in the service of the Commission in the
+discharge of the functions and powers of the Commission commits an offence and shall, on conviction, be
+liable to a fine of K50,000 and to imprisonment for twelve months.
+141. Immunities and privileges
+The Independent Complaints Commissioner and the other personnel of the Commission and other persons
+in the service of the Commission shall have such immunities and privileges as are by law necessary in
+order to ensure the proper exercise and performance of their duties.
+142. Identity document
+Every person working for the Commission shall be issued with a document, in a prescribed form,
+identifying him that he is an employee of the Commission or is working for the Commission and has been
+authorized to perform duties in the discharge of the functions and powers of the Commission as specified
+in this Part.
+143. Disclosure of information an offence
+Any person working for the Commission, whether as an employee or otherwise, who discloses any
+information in circumstances in which he knows or could reasonably be expected to know that such
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 43
+Police Act (Chapter 13:01) Malawi
+disclosure would or may prejudicially affect the performance or exercise of the functions or powers of the
+Commission or of the Police Service commits an offence and shall, on conviction, be liable to a fine of
+K50,000 and to imprisonment for twelve months.
+144. Operational instructions
+The Independent Complaints Commissioner shall issue instructions in writing for the operations of the
+Commission regarding—
+(a) the lodging, receiving and processing of complaints;
+(b) recording and safe-guarding of information and evidence;
+(c) disclosure of information;
+(d) the making of findings and recommendations;
+(e) procedures for the protection of the identity and integrity of complainants; and
+(f) all matters incidental to the matters specified in paragraphs (a) to (e).
+145. Officer in-charge of police to report deaths or injury in police custody or action
+The officer in-charge of police shall inform the Commission immediately of all cases of death or injury in
+police custody or as a result of police action.
+146. Annual reports
+(1) Within three months after the expiry of each year, the Commission shall submit to Parliament a
+report of its activities during that year.
+(2) The report of the Commission shall be tabled in Parliament within fourteen days after it has been
+submitted or if Parliament is not then meeting within fourteen days after the commencement of the
+next meeting.
+(3) The Independent Complaints Commissioner shall, at any time when requested to do so by
+a competent Committee of the National Assembly submit a report on the activities of the
+Commission to that Committee and appear before such Committee to answer questions on the
+content of such report.
+147. Powers, etc., under any other written law
+Nothing in this Part shall preclude any person or authority from exercising the rights, powers, functions
+or duties conferred on such person or authority by or under any written law in respect of any matter
+otherwise provided under this Part.
+148. Regulations in relation to the Commission
+The Minister may, on the advice of the Commission, make regulations for the proper implementation of
+this Part.
+Part XIV – Miscellaneous
+149. Powers to prosecute under other law not to be affected
+Nothing in this Act shall exempt any person from being prosecuted under any other Act for the time being
+in force for any offence made punishable by this Act or from being liable under any other Act to any other
+or higher penalty or punishment than is provided for such offence by this Act:
+Provided that no person shall be tried twice for the same offence.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 44
+Police Act (Chapter 13:01) Malawi
+150. Harboring on licensed premises police officers while on duty
+Any keeper of a house, store or place in which intoxicating liquor is sold who, himself or by any person in
+his employment, knowingly harbors or entertains any police officer or permits any police officer to remain
+in such house, store or place, during any part of the time in which such officer has been detailed for duty,
+commits an offence and shall, on conviction, be liable to a fine of K10,000 or to imprisonment for three
+months.
+151. Unlawful possession of articles supplied to police officers
+Any person, not being a police officer, who is found in possession of any article whatsoever which has
+been supplied to any police officer for the execution of his duty or any medal or decoration granted to any
+such officer for service or good conduct and who fails to account satisfactorily for the possession thereof
+or who, without due authority, purchases or receives any such article, medal or decoration from a police
+officer, or who aids or abets any police officer to sell or dispose of any such article, medal or decoration,
+commits an offence and shall, on conviction, be liable to a fine of K10,000 and to imprisonment for three
+months.
+152. Persons causing disaffection, etc.
+(1) Any person who—
+(a) causes, or attempts to cause, or does any act calculated to cause disaffection amongst police
+officers; or
+(b) induces, or attempts to induce or does any act calculated to induce, any police officer to
+withhold his services or to commit a disciplinary offence,
+commits an offence and shall, on conviction, be liable to a fine of K100,000 and to imprisonment for
+two years.
+(2) Where the person under subsection (1) is a police officer, he shall be liable to dismissal.
+153. Disorderly conduct in courts, police stations, etc.
+(1) Any person who, in any court, police station, police office lock-up, is guilty of any riotous, indecent,
+disorderly or insulting behavior commits an offence and shall, on conviction, be liable to a fine of
+K50,000 and to imprisonment for twelve months.
+(2) Any police officer may arrest without a warrant any person, who, in his presence or within his view,
+commits any offence under subsection (1).
+(3) Any superior police officer in-charge of the police in any area, if he is satisfied that any person has
+committed an offence under subsection (1), may accept from such person a sum of money by way of
+compensation for any damage caused by such person during the commission of the offence:
+Provided that in no case shall the amount of compensation exceed the value of the estimated
+damage.
+(4) In any proceedings brought against any person under subsection (1), it shall be a good defense if
+such person proves to the satisfaction of the court that he has compounded the offence under this
+section.
+154. Being found upon police premises without lawful authority
+(1) Any person who at any time is found in or upon police premises without lawful authority, the proof
+of which shall lie on him, commits an offence.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 45
+Police Act (Chapter 13:01) Malawi
+(2) Any person who shall have been lawful in or upon police premises and who is thereafter found at
+any place in such police premises, other than on one of the principal roadways within such premises
+or at the office or premises of the person with whom he has business, and who fails satisfactorily to
+account for his presence at that part of such police premises commits an offence.
+(3) Any person guilty of offence against subsection (1) or (2) shall be liable to a fine ofK10,000 and to
+imprisonment for three months.
+(4) In this section, “police premises” means any police station or other premises for the time being in
+the occupation of the police.
+155. Regulations and rules
+(1) The Minister may make regulations or rules for the purposes of this Act respecting any matter for
+which the power to make regulations or rules has not been specially conferred under any other Part
+of this Act.
+(2) Without derogation from the generality of subsection (1), regulations and rules made under this
+section may provide for—
+(a) anything which by this Act may or is to be prescribed and generally for the effective
+administration of this Act;
+(b) the enlistment, terms of conditions of service and discipline of police officers;
+(c) the training of police officers;
+(d) the awarding of good conduct medals and badges and the grant to be paid in respect thereof;
+(e) the establishment, constitution, functions and procedure of Police Associations and for
+matters incidental thereto; and
+(f) the prevention and regulation of access of persons to police stations or any premises in the
+occupation of the police.
+Schedule (Section 52)
+Code of disciplinary conduct for police officers
+1. Disrespectful conduct and disobedience
+A police officer commits an offence against discipline who—
+(a) is disrespectful in word, act or demeanor to his superior in rank;
+(b) willfully disobeys any lawful order given to him by his superior in rank.
+2. Drunkenness
+A police officer commits an offence against discipline who—
+(a) is guilty of drunkenness;
+(b) drinks intoxicating liquor when on duty;
+(c) enters any place licensed for the sale of intoxicating liquor when on duty, except when his presence
+is required there in the execution of his duty.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 46
+Police Act (Chapter 13:01) Malawi
+3. Being idle, etc.
+A police officer commits an offence against discipline who—
+(a) sleeps when on duty;
+(b) idles or gossips or leaves his post without authority, express or implied, when on duty;
+(c) smokes on duty;
+(d) removes his armlet or duty badge when on duty or endeavors at any time to conceal or disguise his
+number;
+(e) absents himself without leave; and
+(f) neglects his duty.
+4. Escaping from arrest, etc.
+A police officer commits an offence against discipline who—
+(a) being under arrest or in confinement, leaves or escapes from his arrest or confinement without
+authority, express or implied;
+(b) neglects or refuses to assist in the apprehension of any police officer charged with any offence;
+(c) allows to escape any prisoner who is committed to his charge or whom it is his duty to keep or
+guard.
+5. Being violent, etc.
+A police officer commits an offence against discipline who—
+(a) offers or uses unwarrantable personal violence to any person in his custody;
+(b) ill-uses or ill-treats any person in his custody.
+6. Cowardice
+A police officer commits an offence against discipline who is guilty of cowardice.
+7. Unlawful discharge of firearm
+A police officer commits an offence against discipline who discharges his firearm without just orders or
+cause.
+8. Offences relating to parades
+A police officer commits an offence against discipline who—
+(a) without proper cause, fails to appear or appears late at any parade;
+(b) talks or is inattentive or otherwise misbehaves himself on parade.
+9. Being untidy, etc.
+A police officer commits an offence against discipline who—
+(a) parades or reports for duty dirty or untidy on his person, arms, clothing or accoutrements;
+(b) is slovenly.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 47
+Police Act (Chapter 13:01) Malawi
+10. Uncivil behaviour and bullying
+A police officer commits an offence against discipline who—
+(a) is uncivil or quarrelsome;
+(b) bullies an inferior in rank;
+(c) forces a sentry.
+11. Pawning, etc., of articles supplied to police officers or damages, or items committed to
+their charge
+A police officer commits an offence against discipline who pawns, sells, loses by neglect, makes away with,
+willfully fail to report any damage to—
+(a) any of the articles of arms, ammunition, clothing, accoutrements or necessaries supplied to him;
+(b) any medal or decoration granted to him for service or good conduct;
+(c) any Government property or any exhibit or any lost, stolen or unclaimed property committed to his
+charge.
+12. Accepting gifts, etc.
+A police officer commits an offence against discipline who, without the knowledge and permission of the
+Inspector General, accepts directly or indirectly any gift, gratuity, present or reward from any member of
+the public in respect of any thing done by him in the discharge of the duties of his office.
+13. Unauthorized disclosure of information
+A police officer commits an offence against discipline who, without due authority discloses or conveys
+any information concerning any investigation or other police or departmental matter to any unauthorized
+person.
+14. Malingering, etc.
+A police officer commits an offence against discipline who—
+(a) malingers or feigns sickness;
+(b) conceals any venereal or contagious disease;
+(c) neglects or fails to report the fact if he is suffering from any venereal or contagious disease.
+15. Contracting or aggravating disease by willful misconduct
+A police officer commits an offence against discipline who is guilty of willful misconduct, or who willfully
+disobeys, whether in hospital or elsewhere, any orders, by which misconduct or disobedience he contracts
+or aggravates any disease or infirmity or delays its cure.
+16. Exacting
+A police officer commits an offence against discipline who, without proper authority, exacts from any
+person carriage, porterage or provisions.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 48
+Police Act (Chapter 13:01) Malawi
+17. Resisting an escort
+A police officer commits an offence against discipline who resists an escort whose duty it is to apprehend
+such police officer or to have such police officer in his charge.
+18. Breaking out of police lines
+A police officer commits an offence against discipline who breaks out of, or leaves without lawful excuse,
+any police lines, camp or quarters.
+19. False reports
+A police officer commits an offence against discipline who makes or signs any false report or statement
+in any official record or document knowing or having reasonable grounds to believe that such report or
+statement is false.
+20. False accusation against police officers
+A police officer commits an offence against discipline who makes a false accusation against any police
+officer knowing or having reasonable grounds to believe that such accusation is false.
+21. Anonymous or frivolous complaints
+A police officer commits an offence against discipline who—
+(a) makes or joins in making any anonymous complaint to a superior officer;
+(b) makes any frivolous or vexatious complaint or makes a complaint in an irregular manner.
+22. Engaging in other employment
+A police officer commits an offence against discipline who engages without the authority of the Inspector
+General in any employment, occupation or office other than his police duties.
+23. Other conduct prejudicial of good order Service in the Police
+A police officer commits an offence against discipline who guilty of any other act, conduct, disorder or
+neglect to the prejudice of good order or discipline in the Police Service.
+By Laws.Africa and contributors. Licensed under CC-BY. Share widely and freely. 49

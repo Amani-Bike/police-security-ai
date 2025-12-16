@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Profile - SafetyNet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        :root {
+            --primary-blue: #1e3a8a;
+            --dark-blue: #0f172a;
+            --medium-blue: #1e293b;
+            --light-blue: #3b82f6;
+            --accent-blue: #60a5fa;
+            --white: #ffffff;
+            --off-white: #f8fafc;
+            --gray: #94a3b8;
+            --light-gray: #cbd5e1;
+            --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3),
+                      0 4px 6px -2px rgba(0, 0, 0, 0.2);
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            color: var(--off-white);
+            line-height: 1.5;
+            background-color: var(--dark-blue);
+        }
+
+        /* Background with city image */
+        .city-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(
+                rgba(15, 23, 42, 0.85),
+                rgba(15, 23, 42, 0.95)
+            ),
+            url('https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        /* Main container */
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row; /* Changed to row to accommodate sidebar */
+            overflow: hidden;
+        }
+
+        /* Sidebar styles */
+        .sidebar {
+            width: 260px;
+            background: var(--medium-blue);
+            border-right: 1px solid var(--accent-blue);
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            z-index: 1000;
+            overflow-y: auto;
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sidebar-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--accent-blue);
+        }
+
+        .sidebar-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .sidebar-logo i {
+            color: var(--accent-blue);
+            font-size: 1.5rem;
+        }
+
+        .sidebar-nav {
+            flex: 1;
+            padding: 1.5rem 0;
+        }
+
+        .sidebar-nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar-nav li {
+            margin-bottom: 5px;
+        }
+
+        .sidebar-nav a {
+            display: flex;
+            align-items: center;
+            padding: 12px 1.5rem;
+            color: var(--off-white);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            gap: 12px;
+        }
+
+        .sidebar-nav a:hover, .sidebar-nav a.active {
+            background: rgba(96, 165, 250, 0.2);
+            border-left: 4px solid var(--accent-blue);
+            color: var(--accent-blue);
+            padding-left: calc(1.5rem - 4px);
+        }
+
+        .sidebar-nav a i {
+            width: 20px;
+            text-align: center;
+        }
+
+        .sidebar-footer {
+            padding: 1.5rem;
+            border-top: 1px solid var(--accent-blue);
+        }
+
+        .sidebar-footer a {
+            display: flex;
+            align-items: center;
+            padding: 12px 1.5rem;
+            color: var(--off-white);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 500;
+            transition: all 0.2s;
+            gap: 12px;
+        }
+
+        .sidebar-footer a:hover {
+            color: var(--accent-blue);
+        }
+
+        /* Mobile menu button */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .mobile-menu-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Main content area */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto; /* Enable scrolling */
+            padding-bottom: 20px;
+            margin-left: 260px; /* Make space for sidebar */
+        }
+
+        /* Header adjustments */
+        header {
+            margin-left: 260px; /* Make space for sidebar */
+            background-color: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+            flex-shrink: 0;
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Responsive design for mobile */
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+            }
+
+            .sidebar.active {
+                transform: translateX(0);
+            }
+
+            .main-content {
+                margin-left: 0;
+            }
+
+            header {
+                margin-left: 0;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .sidebar-overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+                z-index: 998;
+            }
+
+            .sidebar-overlay.active {
+                display: block;
+            }
+        }
+
+        /* Header */
+        header {
+            background-color: rgba(15, 23, 42, 0.9);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+            flex-shrink: 0;
+            height: 60px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--white);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo i {
+            margin-right: 8px;
+            font-size: 26px;
+            color: var(--accent-blue);
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            padding: 8px 15px;
+            background: transparent;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            border-radius: 4px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .nav-btn:hover {
+            background: rgba(96, 165, 250, 0.1);
+            color: var(--light-blue);
+        }
+
+        .profile-container {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            width: 100%;
+            max-width: 600px;
+            padding: 30px;
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            backdrop-filter: blur(10px);
+            margin: 20px auto;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-header h1 {
+            font-size: 28px;
+            color: var(--white);
+            margin-bottom: 8px;
+        }
+
+        .profile-header p {
+            color: var(--gray);
+            font-size: 16px;
+        }
+
+        .profile-info {
+            margin: 20px 0;
+        }
+
+        .info-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(59, 130, 246, 0.1);
+        }
+
+        .info-label {
+            color: var(--gray);
+            font-weight: 600;
+        }
+
+        .info-value {
+            color: var(--white);
+        }
+
+        .profile-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 12px;
+            text-align: center;
+            background: transparent;
+            color: var(--accent-blue);
+            border: 1px solid var(--accent-blue);
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .action-btn:hover {
+            background: rgba(96, 165, 250, 0.1);
+            color: var(--light-blue);
+        }
+
+        .action-btn.delete {
+            color: #f87171;
+            border-color: #f87171;
+        }
+
+        .action-btn.delete:hover {
+            background: rgba(248, 113, 113, 0.1);
+        }
+
+        h1 {
+            color: var(--white);
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        /* Dropdown Menu */
+        .dropdown-menu {
+            position: absolute;
+            top: 50px;
+            right: 0;
+            background-color: var(--medium-blue);
+            border: 1px solid rgba(59, 130, 246, 0.3);
+            border-radius: 6px;
+            box-shadow: var(--shadow);
+            width: 200px;
+            z-index: 1000;
+            display: none;
+            overflow: hidden;
+        }
+
+        .dropdown-menu.show {
+            display: block;
+        }
+
+        .dropdown-item {
+            display: block;
+            padding: 10px 15px;
+            color: var(--off-white);
+            text-decoration: none;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .dropdown-item i {
+            width: 16px;
+        }
+
+        .dropdown-item:hover {
+            background-color: rgba(59, 130, 246, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- City background -->
+    <div class="city-background"></div>
+
+    <!-- Main container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="#" class="sidebar-logo">
+                    <i class="fas fa-shield-alt"></i>
+                    SafetyNet
+                </a>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="map_dashboard.html"><i class="fas fa-map-marked-alt"></i> Emergency Map</a></li>
+                    <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+                    <li><a href="police_analytics.html"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                    <li><a href="profile.html" class="active"><i class="fas fa-user"></i> Profile</a></li>
+                </ul>
+            </nav>
+
+            <div class="sidebar-footer">
+                <a href="#" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+        </aside>
+
+        <!-- Sidebar overlay for mobile -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="nav-container">
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <a href="#" onclick="goToLandingPage(); return false;" class="logo">
+                        <i class="fas fa-shield-alt"></i>
+                        SafetyNet
+                    </a>
+                    <div class="nav-buttons">
+                        <button id="profileDropdownBtn" class="nav-btn">
+                            <i class="fas fa-user"></i> Profile <i class="fas fa-caret-down"></i>
+                        </button>
+                        <div id="profileDropdown" class="dropdown-menu">
+                            <a href="profile.html" class="dropdown-item"><i class="fas fa-user"></i> View Profile</a>
+                            <a href="#" class="dropdown-item" onclick="logout()"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+
+        <div class="container">
+            <h1>Police Officer Profile</h1>
+
+            <div class="profile-container">
+                <div class="profile-header">
+                    <div class="photo-preview" style="width: 120px; height: 120px; border-radius: 50%; margin: 0 auto 15px; background-color: rgba(15, 23, 42, 0.7); border: 3px solid var(--accent-blue); display: flex; align-items: center; justify-content: center; overflow: hidden;">
+                        <img id="profilePhoto" src="../assets/profile-placeholder.jpg" alt="Profile Photo" style="width: 100%; height: 100%; object-fit: cover;" />
+                    </div>
+                    <h2 id="profileName">Officer Name</h2>
+                    <p id="profileRole">Police Officer</p>
+                </div>
+
+                <div class="profile-info">
+                    <div class="info-item">
+                        <span class="info-label">Username:</span>
+                        <span id="profileUsername" class="info-value">officer_username</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span id="profileEmail" class="info-value">officer@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Phone:</span>
+                        <span id="profilePhone" class="info-value">+123 456 7890</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Badge ID:</span>
+                        <span id="profileBadgeId" class="info-value">ID-XXXX-XXXX</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">District:</span>
+                        <span id="profileDistrict" class="info-value">Sample District</span>
+                    </div>
+                </div>
+
+                <div class="profile-actions">
+                    <button class="action-btn" onclick="editProfile()">Edit Profile</button>
+                    <button class="action-btn delete" onclick="deleteProfile()">Delete Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        // Initialize profile with data from backend API
+        async function loadProfile() {
+            const token = localStorage.getItem("jwt");
+            const userRole = localStorage.getItem("userRole");
+
+            if (!token || userRole !== "police") {
+                window.location.href = "police_login.html";
+                return;
+            }
+
+            try {
+                // Fetch user profile from backend API
+                const response = await fetch("http://127.0.0.1:8000/auth/profile", {
+                    method: "GET",
+                    headers: {
+                        "Authorization": `Bearer ${token}`
+                    }
+                });
+
+                if (response.ok) {
+                    const userData = await response.json();
+
+                    // Update profile information
+                    document.getElementById("profileName").textContent = userData.username || userData.full_name || "Officer Name";
+                    document.getElementById("profileUsername").textContent = userData.username || "officer_username";
+                    document.getElementById("profileEmail").textContent = userData.email || "officer@example.com";
+                    document.getElementById("profilePhone").textContent = userData.phone || "+123 456 7890";
+                    document.getElementById("profileBadgeId").textContent = userData.badge_id || "ID-XXXX-XXXX";
+                    document.getElementById("profileDistrict").textContent = userData.district || "Sample District";
+                    document.getElementById("profileRole").textContent = userData.role || "Police Officer";
+
+                    // Update the name in the sidebar if it exists (for consistent display)
+                    const sidebarName = document.querySelector('#sidebar a[href="profile.html"] ~ div .sidebar-footer a[href="#"]');
+                    if (sidebarName) {
+                        // Update the user name in sidebar (if we had a personal link)
+                    }
+                } else {
+                    console.error("Failed to fetch user profile:", response.status);
+                    // Fallback to localStorage data
+                    const username = localStorage.getItem("username");
+                    document.getElementById("profileName").textContent = username || "Officer Name";
+                    document.getElementById("profileUsername").textContent = username || "officer_username";
+                }
+            } catch (error) {
+                console.error("Error loading profile:", error);
+                // Fallback to localStorage data
+                const username = localStorage.getItem("username");
+                document.getElementById("profileName").textContent = username || "Officer Name";
+                document.getElementById("profileUsername").textContent = username || "officer_username";
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem("jwt");
+            localStorage.removeItem("userRole");
+            localStorage.removeItem("userId");
+            localStorage.removeItem("username");
+            window.location.href = "police_login.html";
+        }
+
+        function editProfile() {
+            alert("Edit profile functionality would be implemented here.");
+        }
+
+        function deleteProfile() {
+            if (confirm("Are you sure you want to delete your account? This action cannot be undone.")) {
+                alert("Delete profile functionality would be implemented here.");
+            }
+        }
+
+        // Profile dropdown functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProfile();
+            setupProfileDropdown();
+        });
+
+        function setupProfileDropdown() {
+            const profileBtn = document.getElementById('profileDropdownBtn');
+            const profileDropdown = document.getElementById('profileDropdown');
+
+            // Toggle dropdown
+            profileBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                profileDropdown.classList.toggle('show');
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!profileBtn.contains(e.target) && !profileDropdown.contains(e.target)) {
+                    profileDropdown.classList.remove('show');
+                }
+            });
+        }
+
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById("mobileMenuBtn");
+            const sidebar = document.getElementById("sidebar");
+            const sidebarOverlay = document.getElementById("sidebarOverlay");
+
+            if (mobileMenuBtn) {
+                mobileMenuBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    sidebar.classList.toggle('active');
+                    sidebarOverlay.classList.toggle('active');
+                });
+            }
+
+            if (sidebarOverlay) {
+                sidebarOverlay.addEventListener('click', function() {
+                    sidebar.classList.remove('active');
+                    sidebarOverlay.classList.remove('active');
+                });
+            }
+
+            // Close sidebar when clicking outside on mobile
+            document.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768 &&
+                    !mobileMenuBtn.contains(e.target) &&
+                    !sidebar.contains(e.target) &&
+                    sidebar.classList.contains('active')) {
+                    sidebar.classList.remove('active');
+                    sidebarOverlay.classList.remove('active');
+                }
+            });
+
+            // Handle window resize to adjust sidebar display
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768) {
+                    sidebar.classList.remove('active');
+                    sidebarOverlay.classList.remove('active');
+                }
+            });
+        });
+
+        // Navigation function
+        function goToLandingPage() {
+            window.location.href = "/";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+requests
+python-multipart
+bcrypt
+python-jose[cryptography]
+sentence-transformers
+faiss-cpu
+numpy
+langchain
+langchain-openai
+langchain-google-genai
+python-dotenv

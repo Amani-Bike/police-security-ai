@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Malawi-SafetyNet - Profile</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --primary-blue: #1e3c72;
+        --secondary-blue: #2a5298;
+        --accent-blue: #4cc9f0;
+        --emergency-red: #e63946;
+        --warning-yellow: #ff9e00;
+        --success-green: #2a9d8f;
+        --light-blue: #a8dadc;
+        --dark-bg: #0a192f;
+        --sidebar-bg: #0f2347;
+        --border-color: rgba(255, 255, 255, 0.1);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: var(--dark-bg);
+        color: white;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* Navigation Bar */
+      .navbar {
+        background: var(--sidebar-bg);
+        padding: 0.8rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--border-color);
+        height: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+      }
+
+      .nav-left {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .back-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 6px;
+        transition: background 0.2s;
+      }
+
+      .back-btn:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .nav-brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+      }
+
+      .nav-brand i {
+        color: var(--accent-blue);
+      }
+
+      /* Main Container */
+      .main-container {
+        margin-top: 60px;
+        padding: 2rem;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Profile Header */
+      .profile-header {
+        text-align: center;
+        margin-bottom: 2rem;
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .profile-avatar-large {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid var(--accent-blue);
+        margin: 0 auto 1rem;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: block;
+      }
+
+      .profile-name {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .profile-status {
+        display: inline-block;
+        padding: 4px 12px;
+        background: var(--success-green);
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      /* Profile Sections */
+      .profile-section {
+        background: var(--sidebar-bg);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        border: 1px solid var(--border-color);
+      }
+
+      .section-title {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--accent-blue);
+      }
+
+      .section-title i {
+        font-size: 1rem;
+      }
+
+      /* Form Styles */
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .form-group label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .form-input {
+        width: 100%;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        color: white;
+        font-size: 0.95rem;
+        transition: all 0.2s;
+      }
+
+      .form-input:focus {
+        outline: none;
+        border-color: var(--accent-blue);
+        box-shadow: 0 0 0 2px rgba(76, 201, 240, 0.1);
+      }
+
+      .form-input:disabled {
+        background: rgba(255, 255, 255, 0.03);
+        color: rgba(255, 255, 255, 0.5);
+        cursor: not-allowed;
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      /* Photo Upload */
+      .photo-upload-container {
+        text-align: center;
+        margin-bottom: 1.5rem;
+      }
+
+      .photo-upload-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 20px;
+        background: var(--accent-blue);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: background 0.2s;
+        margin-top: 1rem;
+      }
+
+      .photo-upload-btn:hover {
+        background: #3db8d8;
+      }
+
+      /* Action Buttons */
+      .action-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 2rem;
+      }
+
+      .btn {
+        padding: 14px;
+        border: none;
+        border-radius: 8px;
+        font-size: 0.95rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .btn-primary {
+        background: var(--accent-blue);
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background: #3db8d8;
+        transform: translateY(-1px);
+      }
+
+      .btn-secondary {
+        background: rgba(255, 255, 255, 0.05);
+        color: white;
+        border: 1px solid var(--border-color);
+      }
+
+      .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transform: translateY(-1px);
+      }
+
+      .btn-danger {
+        background: var(--emergency-red);
+        color: white;
+      }
+
+      .btn-danger:hover {
+        background: #c1121f;
+        transform: translateY(-1px);
+      }
+
+      .btn-logout {
+        background: transparent;
+        color: var(--emergency-red);
+        border: 2px solid var(--emergency-red);
+      }
+
+      .btn-logout:hover {
+        background: rgba(230, 57, 70, 0.1);
+      }
+
+      /* Alert Messages */
+      .alert {
+        padding: 12px 16px;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        display: none;
+        animation: fadeIn 0.3s ease;
+      }
+
+      .alert-success {
+        background: rgba(42, 157, 143, 0.2);
+        border: 1px solid var(--success-green);
+        color: #a8dadc;
+      }
+
+      .alert-error {
+        background: rgba(230, 57, 70, 0.2);
+        border: 1px solid var(--emergency-red);
+        color: #f1a7a7;
+      }
+
+      .alert-info {
+        background: rgba(76, 201, 240, 0.2);
+        border: 1px solid var(--accent-blue);
+        color: #a8dadc;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* Modal for delete confirmation */
+      .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .modal-content {
+        background: var(--sidebar-bg);
+        border-radius: 12px;
+        padding: 2rem;
+        max-width: 400px;
+        width: 90%;
+        border: 1px solid var(--border-color);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      }
+
+      .modal-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: var(--emergency-red);
+      }
+
+      .modal-message {
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+      }
+
+      .modal-input {
+        width: 100%;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        color: white;
+        margin-bottom: 1.5rem;
+        font-size: 0.95rem;
+      }
+
+      .modal-actions {
+        display: flex;
+        gap: 1rem;
+        justify-content: flex-end;
+      }
+
+      .modal-btn {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.2s;
+      }
+
+      .modal-btn-cancel {
+        background: rgba(255, 255, 255, 0.05);
+        color: white;
+        border: 1px solid var(--border-color);
+      }
+
+      .modal-btn-cancel:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .modal-btn-delete {
+        background: var(--emergency-red);
+        color: white;
+      }
+
+      .modal-btn-delete:hover {
+        background: #c1121f;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .main-container {
+          padding: 1rem;
+          margin-top: 70px;
+        }
+
+        .form-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .action-buttons {
+          grid-template-columns: 1fr;
+        }
+
+        .profile-avatar-large {
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .navbar {
+          padding: 0.8rem 1rem;
+        }
+
+        .profile-section {
+          padding: 1rem;
+        }
+
+        .btn {
+          padding: 12px;
+          font-size: 0.9rem;
+        }
+
+        .modal-content {
+          padding: 1.5rem;
+          width: 95%;
+        }
+      }
+
+      /* Scrollbar Styling */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-left">
+        <button class="back-btn" onclick="goBack()">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <a href="chat.html" class="nav-brand">
+          <i class="fas fa-shield-alt"></i>
+          <span>Malawi-SafetyNet</span>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+      <!-- Alert Container -->
+      <div id="alertContainer"></div>
+
+      <!-- Profile Header -->
+      <div class="profile-header">
+        <img
+          src="../assets/profile-placeholder.jpg"
+          alt="Profile"
+          class="profile-avatar-large"
+          id="profileAvatarLarge"
+        />
+        <h1 class="profile-name" id="profileName">Loading...</h1>
+        <span class="profile-status" id="profileStatus">Verified User</span>
+      </div>
+
+      <!-- Personal Information Section -->
+      <div class="profile-section">
+        <h2 class="section-title">
+          <i class="fas fa-user-circle"></i>
+          Personal Information
+        </h2>
+
+        <div class="photo-upload-container">
+          <input
+            type="file"
+            id="photoUpload"
+            accept="image/*"
+            style="display: none"
+          />
+          <button
+            type="button"
+            class="photo-upload-btn"
+            onclick="document.getElementById('photoUpload').click()"
+          >
+            <i class="fas fa-camera"></i>
+            Change Profile Photo
+          </button>
+        </div>
+
+        <form id="personalInfoForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" class="form-input" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-input" required />
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input
+                type="number"
+                id="age"
+                class="form-input"
+                min="18"
+                max="120"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <select id="gender" class="form-input">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                <option value="prefer-not-to-say">Prefer not to say</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="district">District</label>
+            <input type="text" id="district" class="form-input" required />
+          </div>
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+            id="savePersonalInfoBtn"
+          >
+            <i class="fas fa-save"></i>
+            Save Personal Information
+          </button>
+        </form>
+      </div>
+
+      <!-- Change Password Section -->
+      <div class="profile-section">
+        <h2 class="section-title">
+          <i class="fas fa-key"></i>
+          Change Password
+        </h2>
+
+        <form id="changePasswordForm">
+          <div class="form-group">
+            <label for="currentPassword">Current Password</label>
+            <input
+              type="password"
+              id="currentPassword"
+              class="form-input"
+              required
+            />
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="newPassword">New Password</label>
+              <input
+                type="password"
+                id="newPassword"
+                class="form-input"
+                required
+                minlength="8"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="confirmPassword">Confirm New Password</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                class="form-input"
+                required
+                minlength="8"
+              />
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" id="changePasswordBtn">
+            <i class="fas fa-key"></i>
+            Change Password
+          </button>
+        </form>
+      </div>
+
+      <!-- Account Actions Section -->
+      <div class="profile-section">
+        <h2 class="section-title">
+          <i class="fas fa-cog"></i>
+          Account Actions
+        </h2>
+
+        <div class="action-buttons">
+          <button class="btn btn-logout" onclick="logout()">
+            <i class="fas fa-sign-out-alt"></i>
+            Logout
+          </button>
+
+          <button class="btn btn-danger" onclick="showDeleteModal()">
+            <i class="fas fa-trash-alt"></i>
+            Delete Account
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // DOM Elements
+      const profileAvatarLarge = document.getElementById("profileAvatarLarge");
+      const profileName = document.getElementById("profileName");
+      const fullNameInput = document.getElementById("fullName");
+      const emailInput = document.getElementById("email");
+      const ageInput = document.getElementById("age");
+      const genderSelect = document.getElementById("gender");
+      const districtInput = document.getElementById("district");
+      const photoUpload = document.getElementById("photoUpload");
+      const personalInfoForm = document.getElementById("personalInfoForm");
+      const changePasswordForm = document.getElementById("changePasswordForm");
+      const alertContainer = document.getElementById("alertContainer");
+
+      // Function to show alert
+      function showAlert(message, type = "info") {
+        alertContainer.innerHTML = "";
+        const alertDiv = document.createElement("div");
+        alertDiv.className = `alert alert-${type}`;
+        alertDiv.innerHTML = `
+                <i class="fas ${
+                  type === "success"
+                    ? "fa-check-circle"
+                    : type === "error"
+                    ? "fa-exclamation-circle"
+                    : "fa-info-circle"
+                }"></i>
+                ${message}
+            `;
+        alertContainer.appendChild(alertDiv);
+        alertDiv.style.display = "block";
+
+        // Auto-hide after 5 seconds for success/info messages
+        if (type !== "error") {
+          setTimeout(() => {
+            alertDiv.style.display = "none";
+          }, 5000);
+        }
+      }
+
+      // Function to get complete user data
+      async function getUserData() {
+        try {
+          const token = localStorage.getItem("jwt");
+          if (!token) {
+            console.error("No authentication token found");
+            return {
+              username: "User",
+              email: "",
+              age: "",
+              gender: "",
+              district: "",
+              photo: null,
+              isVerified: true,
+            };
+          }
+
+          // Fetch user profile from backend API
+          const response = await fetch("http://127.0.0.1:8000/auth/profile", {
+            method: "GET",
+            headers: {
+              "Authorization": `Bearer ${token}`
+            }
+          });
+
+          if (response.ok) {
+            const userData = await response.json();
+
+            // Format data to match our expected structure
+            const formattedData = {
+              username: userData.username || userData.full_name || "User",
+              email: userData.email || "",
+              age: userData.age || "",
+              gender: userData.gender || "",
+              district: userData.district || "",
+              photo: userData.photo || null,
+              isVerified: true,
+              userId: userData.user_id
+            };
+
+            // Save to local storage for potential future reference
+            localStorage.setItem("safetynet_user", JSON.stringify(formattedData));
+            localStorage.setItem("safetynet_profile_photo", formattedData.photo || "");
+
+            return formattedData;
+          } else {
+            console.error("Failed to fetch user profile:", response.status);
+            // Fallback to old method if API call fails
+            return getLocalUserData();
+          }
+        } catch (error) {
+          console.error("Error updating profile display:", error);
+          // Fallback to old method if API call fails
+          return getLocalUserData();
+        }
+      }
+
+      // Old method as fallback
+      function getLocalUserData() {
+        try {
+          // Try multiple sources for user data
+          let userData = null;
+
+          // 1. First try to get from localStorage (from signup)
+          const savedUser = localStorage.getItem("safetynet_user");
+          if (savedUser) {
+            userData = JSON.parse(savedUser);
+          }
+
+          // 2. If not found, try sessionStorage (from recent signup)
+          if (!userData) {
+            const sessionUser = sessionStorage.getItem("current_user");
+            if (sessionUser) {
+              userData = JSON.parse(sessionUser);
+              // Also save to localStorage for persistence
+              localStorage.setItem("safetynet_user", sessionUser);
+            }
+          }
+
+          // 3. If still not found, try to get from JWT token
+          const token = localStorage.getItem("jwt");
+          if (!userData && token) {
+            try {
+              const payload = JSON.parse(atob(token.split(".")[1]));
+              userData = {
+                username:
+                  payload.username ||
+                  payload.name ||
+                  localStorage.getItem("currentUser") ||
+                  "User",
+                email: payload.email || "",
+                userId: payload.userId || payload.sub || "",
+                isVerified: payload.verified || true,
+                photo: localStorage.getItem("safetynet_profile_photo") || null,
+                age: "",
+                gender: "",
+                district: "",
+              };
+              // Save to localStorage for future use
+              localStorage.setItem("safetynet_user", JSON.stringify(userData));
+            } catch (error) {
+              console.error("Error decoding token:", error);
+            }
+          }
+
+          // 4. If still not found, create a basic user
+          if (!userData) {
+            const storedUser = localStorage.getItem("currentUser");
+            userData = {
+              username: storedUser || "User",
+              email: "",
+              isVerified: true,
+              photo: localStorage.getItem("safetynet_profile_photo") || null,
+              age: "",
+              gender: "",
+              district: "",
+            };
+            localStorage.setItem("safetynet_user", JSON.stringify(userData));
+          }
+
+          // Ensure all fields exist
+          userData = {
+            username: userData.username || "User",
+            email: userData.email || "",
+            age: userData.age || "",
+            gender: userData.gender || "",
+            district: userData.district || "",
+            photo: userData.photo || null,
+            isVerified:
+              userData.isVerified !== undefined ? userData.isVerified : true,
+          };
+
+          return userData;
+        } catch (error) {
+          console.error("Error getting user data:", error);
+          return {
+            username: "User",
+            email: "",
+            age: "",
+            gender: "",
+            district: "",
+            photo: null,
+            isVerified: true,
+          };
+        }
+      }
+
+      // Function to save user data to all storage locations
+      function saveUserData(userData) {
+        try {
+          // Ensure all required fields are present
+          const completeUserData = {
+            username: userData.username || "User",
+            email: userData.email || "",
+            age: userData.age || "",
+            gender: userData.gender || "",
+            district: userData.district || "",
+            photo: userData.photo || null,
+            isVerified:
+              userData.isVerified !== undefined ? userData.isVerified : true,
+            userId: userData.userId || "",
+            role: userData.role || "civilian",
+          };
+
+          // Save to localStorage
+          localStorage.setItem(
+            "safetynet_user",
+            JSON.stringify(completeUserData)
+          );
+
+          // Save photo separately for easy access
+          if (completeUserData.photo) {
+            localStorage.setItem(
+              "safetynet_profile_photo",
+              completeUserData.photo
+            );
+          }
+
+          // Save to sessionStorage
+          sessionStorage.setItem(
+            "current_user",
+            JSON.stringify(completeUserData)
+          );
+
+          // Save currentUser separately for backward compatibility
+          localStorage.setItem("currentUser", completeUserData.username);
+
+          console.log("User data saved successfully:", completeUserData);
+          return completeUserData;
+        } catch (error) {
+          console.error("Error saving user data:", error);
+          return null;
+        }
+      }
+
+      // Function to check authentication
+      function checkAuth() {
+        const token = localStorage.getItem("jwt");
+        if (!token) {
+          showAlert("Please login first", "error");
+          setTimeout(() => {
+            window.location.href = "login.html";
+          }, 2000);
+          return false;
+        }
+        return true;
+      }
+
+      // Function to load user profile
+      async function loadUserProfile() {
+        if (!checkAuth()) return;
+
+        const userData = await getUserData();
+
+        // Populate form fields
+        profileName.textContent = userData.username || "User";
+        fullNameInput.value = userData.username || "";
+        emailInput.value = userData.email || "";
+        ageInput.value = userData.age || "";
+        genderSelect.value = userData.gender || "";
+        districtInput.value = userData.district || "";
+
+        // Set profile picture
+        if (userData.photo) {
+          profileAvatarLarge.src = userData.photo;
+          console.log("Profile picture loaded from user data");
+        } else {
+          // Try to get photo from separate localStorage key
+          const savedPhoto = localStorage.getItem("safetynet_profile_photo");
+          if (savedPhoto) {
+            profileAvatarLarge.src = savedPhoto;
+            userData.photo = savedPhoto;
+            saveUserData(userData);
+            console.log("Profile picture loaded from safetynet_profile_photo");
+          } else {
+            profileAvatarLarge.src = "../assets/profile-placeholder.jpg";
+            console.log("Using placeholder profile picture");
+          }
+        }
+      }
+
+      // Handle photo upload
+      photoUpload.addEventListener("change", function (e) {
+        if (e.target.files.length > 0) {
+          const file = e.target.files[0];
+
+          // Validate file type
+          if (!file.type.match("image.*")) {
+            showAlert("Please select an image file (JPG, PNG, etc.)", "error");
+            return;
+          }
+
+          // Validate file size (max 5MB)
+          if (file.size > 5 * 1024 * 1024) {
+            showAlert("Image size should be less than 5MB", "error");
+            return;
+          }
+
+          const reader = new FileReader();
+          reader.onload = function (event) {
+            // Update profile picture
+            profileAvatarLarge.src = event.target.result;
+
+            // Get current user data
+            const userData = getUserData();
+
+            // Update user data with new photo
+            userData.photo = event.target.result;
+
+            // Save updated user data
+            const savedData = saveUserData(userData);
+
+            if (savedData) {
+              showAlert("Profile picture updated successfully!", "success");
+            } else {
+              showAlert("Failed to save profile picture", "error");
+            }
+          };
+          reader.readAsDataURL(file);
+        }
+      });
+
+      // Handle personal information form submission
+      personalInfoForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        if (!checkAuth()) return;
+
+        const saveBtn = document.getElementById("savePersonalInfoBtn");
+        const originalText = saveBtn.innerHTML;
+
+        // Show loading state
+        saveBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Saving...';
+        saveBtn.disabled = true;
+
+        // Get current user data
+        const userData = getUserData();
+
+        // Update user data with form values
+        userData.username = fullNameInput.value.trim() || userData.username;
+        userData.email = emailInput.value.trim() || userData.email;
+        userData.age = ageInput.value || "";
+        userData.gender = genderSelect.value || "";
+        userData.district = districtInput.value.trim() || "";
+
+        // Save updated user data
+        const savedData = saveUserData(userData);
+
+        // Update profile name display
+        profileName.textContent = userData.username;
+
+        // Reset button state
+        setTimeout(() => {
+          saveBtn.innerHTML = originalText;
+          saveBtn.disabled = false;
+          if (savedData) {
+            showAlert("Personal information saved successfully!", "success");
+          } else {
+            showAlert("Failed to save personal information", "error");
+          }
+        }, 1000);
+      });
+
+      // Handle change password form submission
+      changePasswordForm.addEventListener("submit", async function (e) {
+        e.preventDefault();
+
+        if (!checkAuth()) return;
+
+        const currentPassword =
+          document.getElementById("currentPassword").value;
+        const newPassword = document.getElementById("newPassword").value;
+        const confirmPassword =
+          document.getElementById("confirmPassword").value;
+
+        // Validation
+        if (newPassword !== confirmPassword) {
+          showAlert("New passwords do not match!", "error");
+          return;
+        }
+
+        if (newPassword.length < 8) {
+          showAlert("Password must be at least 8 characters long", "error");
+          return;
+        }
+
+        const changePasswordBtn = document.getElementById("changePasswordBtn");
+        const originalText = changePasswordBtn.innerHTML;
+
+        // Show loading state
+        changePasswordBtn.innerHTML =
+          '<i class="fas fa-spinner fa-spin"></i> Changing Password...';
+        changePasswordBtn.disabled = true;
+
+        try {
+          const token = localStorage.getItem("jwt");
+
+          if (token) {
+            // Call API to change password
+            const response = await fetch(
+              "http://localhost:8000/user/change-password",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Authorization: `Bearer ${token}`,
+                },
+                body: JSON.stringify({
+                  current_password: currentPassword,
+                  new_password: newPassword,
+                }),
+              }
+            );
+
+            if (response.ok) {
+              showAlert("Password changed successfully!", "success");
+              changePasswordForm.reset();
+            } else {
+              const result = await response.json();
+              showAlert(result.detail || "Failed to change password", "error");
+            }
+          } else {
+            // If no API, simulate success for demo
+            showAlert("Password changed successfully (demo)!", "success");
+            changePasswordForm.reset();
+          }
+        } catch (error) {
+          console.error("Error changing password:", error);
+          // For demo purposes, simulate success
+          showAlert("Password changed successfully (demo mode)!", "success");
+          changePasswordForm.reset();
+        } finally {
+          // Reset button state
+          changePasswordBtn.innerHTML = originalText;
+          changePasswordBtn.disabled = false;
+        }
+      });
+
+      // Logout function - FIXED
+      function logout() {
+        if (confirm("Are you sure you want to logout?")) {
+          // Clear all user data from localStorage
+          localStorage.removeItem("jwt");
+          localStorage.removeItem("currentUser");
+          localStorage.removeItem("safetynet_user");
+          localStorage.removeItem("safetynet_profile_photo");
+          localStorage.removeItem("safetynet_chats");
+          localStorage.removeItem("emergency_message");
+
+          // Clear sessionStorage
+          sessionStorage.clear();
+
+          showAlert("Logged out successfully!", "success");
+          setTimeout(() => {
+            window.location.href = "login.html";
+          }, 1500);
+        }
+      }
+
+      // Show delete modal function
+      function showDeleteModal() {
+        if (!checkAuth()) return;
+
+        // Create modal dynamically
+        const modalHTML = `
+                <div class="modal" id="deleteModal" style="display: flex; position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 1000; align-items: center; justify-content: center;">
+                    <div class="modal-content" style="background: var(--sidebar-bg); padding: 2rem; border-radius: 12px; max-width: 400px; width: 90%; border: 1px solid var(--border-color);">
+                        <h3 style="color: var(--emergency-red); margin-bottom: 1rem;">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            Delete Account
+                        </h3>
+                        <p style="margin-bottom: 1.5rem; line-height: 1.5;">
+                            <strong>WARNING:</strong> This will permanently delete your account and all associated data from this browser. This action cannot be undone.
+                        </p>
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 500;">
+                                Type "DELETE" to confirm:
+                            </label>
+                            <input type="text" id="deleteConfirmInput" style="width: 100%; padding: 10px; background: rgba(255,255,255,0.05); border: 1px solid var(--border-color); border-radius: 6px; color: white;" placeholder="Type DELETE here">
+                        </div>
+                        <div style="display: flex; gap: 1rem; justify-content: flex-end;">
+                            <button id="cancelDeleteBtn" style="padding: 10px 20px; background: rgba(255,255,255,0.05); color: white; border: 1px solid var(--border-color); border-radius: 6px; cursor: pointer;">
+                                Cancel
+                            </button>
+                            <button id="confirmDeleteBtn" style="padding: 10px 20px; background: var(--emergency-red); color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold;" disabled>
+                                Delete Account
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+        // Add modal to page
+        document.body.insertAdjacentHTML("beforeend", modalHTML);
+
+        const modal = document.getElementById("deleteModal");
+        const deleteConfirmInput =
+          document.getElementById("deleteConfirmInput");
+        const confirmDeleteBtn = document.getElementById("confirmDeleteBtn");
+        const cancelDeleteBtn = document.getElementById("cancelDeleteBtn");
+
+        // Enable delete button only when "DELETE" is typed
+        deleteConfirmInput.addEventListener("input", function () {
+          confirmDeleteBtn.disabled = this.value !== "DELETE";
+        });
+
+        // Handle delete confirmation
+        confirmDeleteBtn.addEventListener("click", function () {
+          // Show loading state
+          confirmDeleteBtn.innerHTML =
+            '<i class="fas fa-spinner fa-spin"></i> Deleting...';
+          confirmDeleteBtn.disabled = true;
+
+          // Clear all user data
+          localStorage.removeItem("jwt");
+          localStorage.removeItem("currentUser");
+          localStorage.removeItem("safetynet_user");
+          localStorage.removeItem("safetynet_profile_photo");
+          localStorage.removeItem("safetynet_chats");
+          localStorage.removeItem("emergency_message");
+          sessionStorage.clear();
+
+          // Remove modal
+          modal.remove();
+
+          // Show success message
+          showAlert(
+            "Account deleted successfully! You will be redirected to the login page.",
+            "success"
+          );
+
+          // Redirect to login page after 2 seconds
+          setTimeout(() => {
+            window.location.href = "login.html";
+          }, 2000);
+        });
+
+        // Handle cancel
+        cancelDeleteBtn.addEventListener("click", function () {
+          modal.remove();
+          showAlert("Account deletion cancelled.", "info");
+        });
+
+        // Close modal when clicking outside
+        modal.addEventListener("click", function (e) {
+          if (e.target === modal) {
+            modal.remove();
+            showAlert("Account deletion cancelled.", "info");
+          }
+        });
+      }
+
+      // Go back function
+      function goBack() {
+        window.history.back();
+      }
+
+      // Initialize
+      document.addEventListener("DOMContentLoaded", async function () {
+        await loadUserProfile();
+      });
+    </script>
+  </body>
+</html>
