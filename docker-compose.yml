@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DATABASE_URL=sqlite:///./police_security.db
+    volumes:
+      - ./police_security.db:/app/police_security.db  # Persist database
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  db_data:

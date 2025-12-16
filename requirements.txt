@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
 sqlalchemy
 requests
@@ -13,3 +13,4 @@ langchain
 langchain-openai
 langchain-google-genai
 python-dotenv
+gunicorn
