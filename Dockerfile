@@ -26,7 +26,7 @@ RUN chown -R app:app /app
 USER app
 
 # Expose port
-EXPOSE $PORT
+EXPOSE ${PORT}
 
 # Run the application
-CMD ["uvicorn", "backend.app:app", "--host", "0.0.0.0", "--port", "$PORT"]
+CMD ["sh", "-c", "uvicorn backend.app:app --host 0.0.0.0 --port ${PORT}"]
