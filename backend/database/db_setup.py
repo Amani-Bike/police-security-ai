@@ -9,8 +9,14 @@ DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./police_security.db")
 # Check if it's a PostgreSQL URL (for Render) or SQLite
 if DATABASE_URL.startswith("postgresql"):
     engine = create_engine(DATABASE_URL)
+    print("Using PostgreSQL database for production")
 else:
-    # SQLite database (file-based)
+    # SQLite database (file-based) - for Render, it's better to use temp file due to ephemeral storage
+    # But for basic deployment, we'll stick with file-based
+    if "RENDER" in os.environ:
+        # On Render, SQLite file will be lost after each deploy, warn user
+        print("WARNING: Using SQLite on Render. Data will not persist between deploys.")
+        print("Consider using PostgreSQL for production.")
     engine = create_engine(
         DATABASE_URL, connect_args={"check_same_thread": False}
     )
