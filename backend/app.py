@@ -65,9 +65,11 @@ async def favicon():
     return Response(status_code=204)  # No content
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))
     uvicorn.run(
-        "app:app",
+        "backend.app:app",
         host="0.0.0.0",
-        port=8000,
-        reload=True
+        port=port,
+        reload=False 
     )
+
