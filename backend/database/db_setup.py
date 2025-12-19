@@ -1,13 +1,20 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+import os
 
-# SQLite database (file-based)
-SQLALCHEMY_DATABASE_URL = "sqlite:///./police_security.db"
+# Use DATABASE_URL from environment variable if set (for Render/production), otherwise use local SQLite
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./police_security.db")
 
-engine = create_engine(
-    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
-)
+# Check if it's a PostgreSQL URL (for Render) or SQLite
+if DATABASE_URL.startswith("postgresql"):
+    engine = create_engine(DATABASE_URL)
+else:
+    # SQLite database (file-based)
+    engine = create_engine(
+        DATABASE_URL, connect_args={"check_same_thread": False}
+    )
+
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()

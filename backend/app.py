@@ -16,7 +16,8 @@ create_tables()
 print("Database tables created successfully!")
 
 # ===== CORS Configuration =====
-origins = ["*"]  # For development
+# Allow all origins in development, restrict in production
+origins = os.getenv("ALLOWED_ORIGINS", "*").split(",")
 
 app.add_middleware(
     CORSMiddleware,
